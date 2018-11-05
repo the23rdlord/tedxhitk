@@ -4,6 +4,29 @@
     height: 100vh;
 }
 
-#landing-overlay #countdown-timer [id ^= "countdown-"]{
+#landing-overlay #landing-overlay-logo{
+    padding-top: 4%;
+    padding-left: 10px;
+    height: 30%;
+    width: auto;
+}
+
+#landing-overlay #countdown-timer{
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 5em;
+}
+
+#landing-overlay #countdown-timer [class ^= "countdown-"], #landing-overlay #countdown-timer  [id ^= "countdown-"]{
     display: inline-block;
+}
+
+#landing-overlay #countdown-timer .countdown-description{
+    font-size: 16px;
+    display: block;
+    padding-left: 5%;
+}
+
+#landing-overlay #countdown-timer .countdown-description-days{
+    padding-left: 13%;
 }
