@@ -12,7 +12,7 @@
     bottom: 0;
     z-index: 2;
     transition: top 1s;
-    /*display: none;*/
+    display: none;
 }
 
 #landing-overlay #landing-overlay-logo {
@@ -80,7 +80,7 @@
 #main {
     width: 100%;
     position: fixed;
-    top: 100%;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -104,7 +104,7 @@
 
 #landing iframe{
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 #landing .details p{
@@ -114,3 +114,15 @@
 #landing .small-hr{
     margin: 2% 30%;
 }
+
+nav.navbar{
+    border-radius: 0px;
+}
+
+.sub-heading{
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
