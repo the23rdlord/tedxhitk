@@ -1,35 +1,37 @@
-#landing-overlay{
+#landing-overlay {
     background-color: #000000;
     color: #ffffff;
-    width:100%;
+    width: 100%;
     height: 100vh;
-    position: fixed; 
-    width: 100%; 
-    height: 100%; 
-    top: 0; 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 2; 
+    z-index: 2;
     transition: top 1s;
+    /*display: none;*/
 }
 
-#landing-overlay #landing-overlay-logo{
+#landing-overlay #landing-overlay-logo {
     padding-top: 4%;
     padding-left: 30px;
 }
 
-#landing-overlay #countdown-timer{
+#landing-overlay #countdown-timer {
     padding-top: 7%;
     padding-left: 3.8%;
     font-size: 5em;
 }
 
-#landing-overlay #countdown-timer [class ^= "countdown-"], #landing-overlay #countdown-timer  [id ^= "countdown-"]{
+#landing-overlay #countdown-timer [class ^="countdown-"],
+#landing-overlay #countdown-timer [id ^="countdown-"] {
     display: inline-block;
 }
 
-#landing-overlay #countdown-timer .countdown-description{
+#landing-overlay #countdown-timer .countdown-description {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -37,21 +39,21 @@
     padding-left: 3%;
 }
 
-#landing-overlay #countdown-timer .countdown-description-days{
+#landing-overlay #countdown-timer .countdown-description-days {
     padding-left: 14%;
 }
 
-#landing-overlay #overlay-social{
+#landing-overlay #overlay-social {
     position: absolute;
     bottom: 20px;
     left: 3.8%;
 }
 
-#landing-overlay #overlay-social a{
+#landing-overlay #overlay-social a {
     padding-right: 20px;
 }
 
-#landing-overlay .btn{
+#landing-overlay .btn {
     position: absolute;
     right: 3.8%;
     bottom: 20px;
@@ -61,27 +63,54 @@
     letter-spacing: 2px;
 }
 
-#landing-overlay .btn:hover{
+#landing-overlay .btn:hover {
     color: inherit;
 }
 
-#landing-overlay .btn:active{
-    color: inherit;
-    outline: 0px;
-}
-
-#landing-overlay .btn:focus{
+#landing-overlay .btn:active {
     color: inherit;
     outline: 0px;
 }
 
-#main{
-    width:100%;
+#landing-overlay .btn:focus {
+    color: inherit;
+    outline: 0px;
+}
+
+#main {
+    width: 100%;
     position: fixed;
-    top: 100%; 
+    top: 100%;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 2; 
+    z-index: 2;
     transition: top 1s;
+    overflow-y: scroll;
+}
+
+#landing {
+    padding-top: 10%;
+    letter-spacing: 1.2px;
+}
+
+#landing em{
+    font-size: 32px;
+}
+
+#landing p{
+    margin: 0px;
+}
+
+#landing iframe{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#landing .details p{
+    font-size: 1.5em;
+}
+
+#landing .small-hr{
+    margin: 2% 30%;
 }
