@@ -7,12 +7,10 @@
 #landing-overlay #landing-overlay-logo{
     padding-top: 4%;
     padding-left: 30px;
-    height: 30%;
-    width: auto;
 }
 
 #landing-overlay #countdown-timer{
-    padding-top: 5%;
+    padding-top: 7%;
     padding-left: 3.8%;
     font-size: 5em;
 }
@@ -41,4 +39,28 @@
 
 #landing-overlay #overlay-social a{
     padding-right: 20px;
+}
+
+#landing-overlay .btn{
+    position: absolute;
+    right: 3.8%;
+    bottom: 20px;
+    background-color: red;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#landing-overlay .btn:hover{
+    color: inherit;
+}
+
+#landing-overlay .btn:active{
+    color: inherit;
+    outline: 0px;
+}
+
+#landing-overlay .btn:focus{
+    color: inherit;
+    outline: 0px;
 }
