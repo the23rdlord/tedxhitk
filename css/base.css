@@ -1,0 +1,13 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.no-padding{
+    padding: 0px;
+}
