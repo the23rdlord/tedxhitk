@@ -58,7 +58,7 @@ $(document).ready(function () {
 
     function getTeam() {
         console.log('team');
-        $.getJSON('/js/team.json', function (members) {
+        $.getJSON('js/team.json', function (members) {
             members.forEach(function (member) {
                 html += getTemplate(member);
             });
