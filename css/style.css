@@ -94,35 +94,94 @@
     letter-spacing: 1.2px;
 }
 
-#landing em{
+#landing em {
     font-size: 32px;
 }
 
-#landing p{
+#landing p {
     margin: 0px;
 }
 
-#landing iframe{
+#landing iframe {
     width: 100%;
     padding: 20px 0px 0px 0px;
 }
 
-#landing .details p{
+#landing .details p {
     font-size: 1.5em;
 }
 
-#landing .small-hr{
+#landing .small-hr {
     margin: 2% 30%;
 }
 
-nav.navbar{
+nav.navbar {
     border-radius: 0px;
 }
 
-.sub-heading{
+.sub-heading {
     font-size: 64px;
     font-weight: bold;
     letter-spacing: 5px;
 }
 
+#container-team .container-team-member {
+    padding-bottom: 50px;
+}
 
+
+#container-team .float-my-children {
+    margin: 0px 20px;
+}
+
+#container-team .float-my-children>* {
+    float: left;
+    margin-right: 5px;
+}
+
+#container-team .float-my-children img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+#container-team .clearfix {
+    *zoom: 1
+}
+
+#container-team .clearfix:before,
+#container-team .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+#container-team .clearfix:after {
+    clear: both;
+}
+
+#container-team ul {
+    margin: 0;
+    padding: 7px 0px 0px 0px;
+}
+
+#container-team ul li {
+    list-style: none;
+    float: left;
+}
+
+#container-team ul li a i {
+    display: block;
+    color: #888;
+    margin: 0px 15px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#container-team .team-member-details {
+    margin: 10px auto 16px 20px;
+}
+
+#container-team .team-member-details .team-member-name {
+    font-weight: bold;
+}
