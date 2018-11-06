@@ -12,7 +12,7 @@
     bottom: 0;
     z-index: 2;
     transition: top 1s;
-    /*display: none;*/
+    display: none;
 }
 
 #landing-overlay #landing-overlay-logo {
@@ -80,7 +80,7 @@
 #main {
     width: 100%;
     position: fixed;
-    top: 100%;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -184,4 +184,24 @@ nav.navbar {
 
 #container-team .team-member-details .team-member-name {
     font-weight: bold;
+}
+
+#container-speaker .card {
+    height: 600px;
+    background: #fff;
+    transition: 0.4s;
+    margin: 32px 8px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    padding: 0px;
+    overflow: hidden;
+}
+
+#container-speaker .card:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+}
+
+#container-speaker .card img{
+    height: 600px;
+    width: 100%;
 }
