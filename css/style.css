@@ -12,6 +12,14 @@
     transition: top 1s;
     /*display: none;*/
 }
+@media only screen and (max-width: 800px) {
+    .sub-heading {
+        font-size: 6vw !important;
+    }
+    #landing .details p {
+        font-size: 14px !important;
+    }
+}
 
 #landing-overlay #landing-overlay-logo {
     padding-top: 4%;
@@ -30,16 +38,14 @@
 }
 
 #landing-overlay #countdown-timer .countdown-description {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
     letter-spacing: 2px;
     display: block;
     padding-left: 3%;
 }
 
-#landing-overlay #countdown-timer .countdown-description-days {
-    padding-left: 14%;
-}
+
 
 #landing-overlay #overlay-social {
     position: absolute;
