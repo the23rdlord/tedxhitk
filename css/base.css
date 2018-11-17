@@ -5,11 +5,11 @@ body {
 }
 
 .no-margin {
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .no-padding {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 a:link {
@@ -30,4 +30,8 @@ a:hover {
 a:active {
     color: inherit;
     text-decoration: none;
+}
+
+.font-bolder{
+    font-weight: bolder;
 }
