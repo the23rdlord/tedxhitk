@@ -1,7 +1,6 @@
 $(document).ready(function () {
     getTeam();
     $('#explore-button').on('click', function () {
-        console.log('Hi');
         $('#landing-overlay').css({
             'top': '-100%'
         });
@@ -43,7 +42,7 @@ $(document).ready(function () {
                 <div class="clearfix float-my-children">
                     <img src="` + member.displayPicture + `">
                     <div class="team-member-details">
-                        <span class="team-member-name" style="font-weight:500;" id="blue_text">` + member.name + `</span>
+                        <span class="team-member-name">` + member.name + `</span>
                         <br />
                         <span>` + member.description + `</span>
                         <span>
