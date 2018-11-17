@@ -1,3 +1,7 @@
+.no-padding{
+    padding: 0px !important;
+}
+
 #landing-overlay {
   background-color: #000000;
   color: #ffffff;
@@ -41,6 +45,12 @@
   .countdown-description {
     font-size: 2.5vw !important;
   }
+
+  #container-team .container-team-member{
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
 }
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   #countdown-timer {
