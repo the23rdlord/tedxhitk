@@ -20,8 +20,8 @@
     font-size: 14px !important;
   }
 
-  .spacer{
-      display: none;
+  .spacer {
+    display: none;
   }
 }
 @media only screen and (max-height: 600px) {
@@ -46,11 +46,10 @@
     font-size: 2.5vw !important;
   }
 
-  #container-team .container-team-member{
-      padding-right: 0px;
-      padding-left: 0px;
+  #container-team .container-team-member {
+    padding-right: 0px;
+    padding-left: 0px;
   }
-
 }
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   #countdown-timer {
@@ -307,7 +306,6 @@ nav.navbar {
   margin: 0px 10px 0px -5px;
 }
 
-
 #container-team .container-team-member {
   padding-bottom: 50px;
 }
@@ -371,38 +369,83 @@ nav.navbar {
   color: red;
 }
 
-.banner{
-    width: 100%;
-    height: auto;
+.banner {
+  width: 100%;
+  height: auto;
 }
 
-footer{
-    letter-spacing: 1.1px;
-    padding-bottom: 10px;
-    background-color: #262626;
-    color: #ffffff;
+footer {
+  letter-spacing: 1.1px;
+  padding-bottom: 10px;
+  background-color: #262626;
+  color: #ffffff;
 }
 footer a i {
   margin-left: 10px;
   font-size: 18px;
 }
-footer a:hover{
-    text-decoration: underline;
+footer a:hover {
+  text-decoration: underline;
 }
 
-@media(min-width: 1100px){
-    footer .container{
-        margin-left: 110px;            
-    }
+@media (min-width: 1100px) {
+  footer .container {
+    margin-left: 110px;
+  }
 }
-@media (min-width: 1024px) and (max-width: 1100px){
-    footer .container{
-        margin-left: 50px;
-    }
+@media (min-width: 1024px) and (max-width: 1100px) {
+  footer .container {
+    margin-left: 50px;
+  }
 }
-@media (min-width: 768px) and (max-width: 1023px){
-    footer .container{
-        margin-left: 35px;
-    }
+@media (min-width: 768px) and (max-width: 1023px) {
+  footer .container {
+    margin-left: 35px;
+  }
 }
 
+#modals-speaker .modal .modal-content {
+  border-radius: 0px;
+  color: black;
+  letter-spacing: 0.7px;
+}
+
+#modals-speaker img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
+}
+
+#modals-speaker .modal-header {
+  background-color: #eeeeee;
+}
+
+#modals-speaker .modal-title h3 {
+  color: red;
+  margin-top: 35px;
+}
+
+@media (max-width: 512px) {
+  #modals-speaker img {
+    display: block;
+    margin: 0px auto;
+    float: none;
+    width: 200px;
+    height: 200px;
+  }
+
+  #modals-speaker .modal-title {
+    display: block;
+    text-align: center;
+  }
+
+  #modals-speaker .modal-body {
+    text-align: center;
+  }
+
+  #modals-speaker .modal-title h3 {
+    color: red;
+    margin-top: 15px;
+  }
+}
