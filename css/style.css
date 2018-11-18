@@ -379,6 +379,8 @@ nav.navbar {
 footer{
     letter-spacing: 1.1px;
     padding-bottom: 10px;
+    background-color: #262626;
+    color: #ffffff;
 }
 footer a i {
   margin-left: 10px;
@@ -403,3 +405,4 @@ footer a:hover{
         margin-left: 35px;
     }
 }
+
