@@ -255,7 +255,6 @@ nav.navbar {
 }
 
 #container-team .float-my-children > * {
-  float: left;
   margin-right: 5px;
 }
 
@@ -289,7 +288,7 @@ nav.navbar {
 
 #container-team ul li {
   list-style: none;
-  float: left;
+  display: inline-block;
 }
 
 #container-team ul li a i {
@@ -301,7 +300,7 @@ nav.navbar {
 }
 
 #container-team .team-member-details {
-  margin: 10px auto 16px 20px;
+  margin: 10px auto 16px 0px;
   font-weight: bold;
 }
 

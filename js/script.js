@@ -39,15 +39,15 @@ $(document).ready(function () {
 
     function getTemplate(member) {
         var template =
-            `<div class="col-lg-4 col-md-6 col-sm-6 container-team-member">
-                <div class="clearfix float-my-children">
+            `<div class="col-lg-3 col-md-6 col-sm-6 container-team-member">
+                <div class=" float-my-children">
                     <img src="` + member.displayPicture + `" alt="` + member.name +`'s portrait." />
                     <div class="team-member-details">
                         <span class="team-member-name">` + member.name + `</span>
                         <br />
                         <span>` + member.description + `</span>
                         <span>
-                            <ul>` + getLinks(member) + `</ul>
+                            <div style="margin: 0px auto;"><ul>` + getLinks(member) + `</ul></div>
                         </span>
                     </div>
                 </div>
