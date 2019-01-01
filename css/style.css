@@ -10,7 +10,7 @@
   bottom: 0;
   z-index: 2;
   transition: top 1s;
-  /*display: none;*/
+  display: none;
 }
 @media only screen and (max-width: 800px) {
   .sub-heading {
@@ -146,7 +146,7 @@
 #main {
   width: 100%;
   position: fixed;
-  top: 100%;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
