@@ -13,22 +13,22 @@ $(document).ready(function () {
         var result = '';
         links.forEach(function (link) {
             if (link.linkType === 'Twitter') {
-                result += '<li><a href="' +
+                result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
                     '" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>';
             }
             if (link.linkType == 'LinkedIn') {
-                result += '<li><a href="' +
+                result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
                     '" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>';
             }
             if (link.linkType == 'Blog') {
-                result += '<li><a href="' +
+                result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
                     '" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a></li>';
             }
             if (link.linkType == 'Facebook') {
-                result += '<li><a href="' +
+                result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
                     '" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>';
             }
