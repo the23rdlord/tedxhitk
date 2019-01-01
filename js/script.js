@@ -9,28 +9,29 @@ $(document).ready(function () {
         });
     });
 
-    function getLinks(links) {
+    function getLinks(member) {
         var result = '';
+        var links = member.links;
         links.forEach(function (link) {
             if (link.linkType === 'Twitter') {
                 result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
-                    '" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>';
+                    '" target="_blank" aria-label="' + member.name  +'\'s Twitter account."><i class="fab fa-twitter"></i></a></li>';
             }
             if (link.linkType == 'LinkedIn') {
                 result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
-                    '" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>';
+                    '" target="_blank" aria-label="' + member.name  +'\'s LinkedIn account."><i class="fab fa-linkedin"></i></a></li>';
             }
             if (link.linkType == 'Blog') {
                 result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
-                    '" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a></li>';
+                    '" target="_blank" aria-label="' + member.name  +'\'s blog."><i class="fas fa-link"></i></a></li>';
             }
             if (link.linkType == 'Facebook') {
                 result += '<li><a rel="noreferrer noopener" href="' +
                     link.link +
-                    '" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>';
+                    '" target="_blank" aria-label="' + member.name  +'\'s Facebook profile."><i class="fab fa-facebook-f"></i></a></li>';
             }
         });
         return result;
@@ -40,13 +41,13 @@ $(document).ready(function () {
         var template =
             `<div class="col-lg-4 col-md-6 col-sm-6 container-team-member">
                 <div class="clearfix float-my-children">
-                    <img src="` + member.displayPicture + `">
+                    <img src="` + member.displayPicture + `" alt="` + member.name +`'s portrait." />
                     <div class="team-member-details">
                         <span class="team-member-name">` + member.name + `</span>
                         <br />
                         <span>` + member.description + `</span>
                         <span>
-                            <ul>` + getLinks(member.links) + `</ul>
+                            <ul>` + getLinks(member) + `</ul>
                         </span>
                     </div>
                 </div>
