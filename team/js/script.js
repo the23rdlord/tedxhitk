@@ -1,14 +1,5 @@
 $(document).ready(function () {
     getTeam();
-    $('#explore-button').on('click', function () {
-        $('#landing-overlay').css({
-            'top': '-100%'
-        });
-        $('#main').css({
-            'top': '0%'
-        });
-    });
-
     function getLinks(member) {
         var result = '';
         var links = member.links;
@@ -41,7 +32,7 @@ $(document).ready(function () {
         var template =
             `<div class="col-lg-3 col-md-6 col-sm-6 container-team-member">
                 <div class=" float-my-children">
-                    <img src="` + member.displayPicture + `" alt="` + member.name +`'s portrait." />
+                    <img src="../` + member.displayPicture + `" alt="` + member.name +`'s portrait." />
                     <div class="team-member-details">
                         <span class="team-member-name">` + member.name + `</span>
                         <br />
@@ -57,7 +48,7 @@ $(document).ready(function () {
     var html = '';
 
     function getTeam(file) {
-        $.getJSON('js/team.json', function (members) {
+        $.getJSON('js/extra_team.json', function (members) {
             members.forEach(function (member) {
                 html += getTemplate(member);
             });

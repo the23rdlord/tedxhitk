@@ -2,7 +2,7 @@
     {
         "displayPicture":"img/team/bhargab.webp",
         "name":"Bhargab Bose",
-        "description":"Marketing and Event Management",
+        "description":"Marketing and Event Management Team",
         "links":[
             {
                 "linkType": "LinkedIn",
@@ -13,21 +13,56 @@
     {
         "displayPicture":"img/team/rinkesh.webp",
         "name":"Rinkesh Kumar",
-        "description":"Marketing and Event Management<br><br>",
+        "description":"Marketing and Event Management Team<br /><br />",
+        "links":[
+        ]
+    },
+    {
+        "displayPicture":"img/team/abhishek.webp",
+        "name":"Abhishek Kumar Singh",
+        "description":"Marketing and Event Management",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/abhishek.boss.2104"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/riya.webp",
+        "name":"Riya Singh",
+        "description":"Marketing and Event Management<br/><br/><br/>",
+        "links":[]
+    },
+    {
+        "displayPicture":"img/team/rai.webp",
+        "name":"Rai Komal Bhattacharya",
+        "description":"Marketing and Event Management",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/rai.k.bhattacharya"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/suman.webp",
+        "name":"Suman Kora",
+        "description":"Marketing and Event Management<br /><br />",
         "links":[
         ]
     },
     {
         "displayPicture":"img/team/rounak.webp",
         "name":"Rounak Tikadar",
-        "description":"Creative Team<br><br>",
+        "description":"Creative Team<br /><br /><br />",
         "links":[
         ]
     },
     {
         "displayPicture":"img/team/debapratim.webp",
         "name":"Debapratim Chakraborty",
-        "description":"Creative Team",
+        "description":"Creative Team<br /><br />",
         "links":[
             {
                 "linkType": "Facebook",
@@ -51,37 +86,9 @@
         ]
     },
     {
-        "displayPicture":"img/team/abhishek.webp",
-        "name":"Abhishek Kumar Singh",
-        "description":"Marketing and Event Management",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/abhishek.boss.2104"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/rai.webp",
-        "name":"Rai Komal Bhattacharya",
-        "description":"Marketing and Event Management",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/rai.k.bhattacharya"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/riya.webp",
-        "name":"Riya Singh",
-        "description":"Marketing and Event Management<br/><br/><br/><br/>",
-        "links":[]
-    },
-    {
         "displayPicture":"img/team/somopriya.webp",
         "name":"Somopriya Sett",
-        "description":"Creative Team<br><br><br>",
+        "description":"Creative Team<br><br>",
         "links":[
         ]
     },
@@ -116,35 +123,6 @@
         ]
     },
     {
-        "displayPicture":"img/team/megha.webp",
-        "name":"Megha Saha",
-        "description":"Curation Team",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/profile.php?id=100002757933628"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/megha-saha-b32153157"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/arpan.webp",
-        "name":"Arpan Ghosh",
-        "description":"Curation Team<br><br><br>",
-        "links":[
-        ]
-    },
-    {
-        "displayPicture":"img/team/suman.webp",
-        "name":"Suman Kora",
-        "description":"Marketing and Event Management<br><br><br>",
-        "links":[
-        ]
-    },
-    {
         "displayPicture":"img/team/sanchari.webp",
         "name":"Sanchari Roy",
         "description":"Creative Team",
@@ -172,6 +150,28 @@
                 "linkType": "Blog",
                 "link": "https://www.instagram.com/ayushagarwal28/"
             }
+        ]
+    },
+    {
+        "displayPicture":"img/team/megha.webp",
+        "name":"Megha Saha",
+        "description":"Curation Team",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/profile.php?id=100002757933628"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/megha-saha-b32153157"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/arpan.webp",
+        "name":"Arpan Ghosh",
+        "description":"Curation Team<br><br><br>",
+        "links":[
         ]
     } 
 ]

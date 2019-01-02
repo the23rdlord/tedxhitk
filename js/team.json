@@ -64,6 +64,40 @@
         ]
     },
     {
+        "displayPicture":"img/team/arunima.webp",
+        "name":"Arunima Sarkar",
+        "description":"Co-curator and Public Relations",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/arunima.sarkar.3"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/arunima-sarkar-b66966159/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/sayan.webp",
+        "name":"Sayan Mukherjee",
+        "description":"Operations and Public Relations",
+        "links":[
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/sayanm03?s=09"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sayan.mukherjee.58958"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/sayan-mukherjee-243127121"
+            }
+        ]
+    },
+    {
         "displayPicture":"img/team/utkarsh.webp",
         "name":"Utkarsh Singhania",
         "description":"Photography and Videography Lead",
@@ -85,7 +119,7 @@
     {
         "displayPicture":"img/team/alfarhan.webp",
         "name":"Alfarhan Zahedi",
-        "description":"Web Team",
+        "description":"Web Team<br /><br />",
         "links":[
             {
                 "linkType": "Twitter",
@@ -140,39 +174,5 @@
         "name":"Dishani Saha Poddar",
         "description":"Event Manager<br/><br/><br/><br/>",
         "links":[]
-    },
-    {
-        "displayPicture":"img/team/arunima.webp",
-        "name":"Arunima Sarkar",
-        "description":"Co-curator and Public Relations",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arunima.sarkar.3"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/arunima-sarkar-b66966159/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/sayan.webp",
-        "name":"Sayan Mukherjee",
-        "description":"Operations and Public Relations",
-        "links":[
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/sayanm03?s=09"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayan.mukherjee.58958"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/sayan-mukherjee-243127121"
-            }
-        ]
-    } 
+    }
 ]
