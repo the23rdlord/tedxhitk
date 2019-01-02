@@ -2,7 +2,7 @@
     {
         "displayPicture":"img/team/arnab.webp",
         "name":"Arnab Das",
-        "description":"Lisencee",
+        "description":"Licensee",
         "links":[
             {
                 "linkType": "Facebook",
@@ -47,7 +47,7 @@
     {
         "displayPicture":"img/team/sounak.webp",
         "name":"Sounak Dey Roy",
-        "description":"Executive Director",
+        "description":"Executive Producer",
         "links":[
             {
                 "linkType": "Twitter",
@@ -64,60 +64,9 @@
         ]
     },
     {
-        "displayPicture":"img/team/arunima.webp",
-        "name":"Arunima Sarkar",
-        "description":"Co-curator and Public Relations",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arunima.sarkar.3"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/arunima-sarkar-b66966159/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/sayan.webp",
-        "name":"Sayan Mukherjee",
-        "description":"Operations and Public Relations",
-        "links":[
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/sayanm03?s=09"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayan.mukherjee.58958"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/sayan-mukherjee-243127121"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/arka.webp",
-        "name":"Arka Roy",
-        "description":"Volunteer Head and Productions",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arka.roy.338211"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/dishani.webp",
-        "name":"Dishani Saha Poddar",
-        "description":"Event Manager<br/><br/><br/><br/>",
-        "links":[]
-    },
-    {
         "displayPicture":"img/team/utkarsh.webp",
         "name":"Utkarsh Singhania",
-        "description":"Videography and Editing",
+        "description":"Photography and Videography Lead",
         "links":[
             {
                 "linkType": "Facebook",
@@ -174,7 +123,56 @@
                 "link": "https://www.linkedin.com/in/jatin-pandey/"
             }
         ]
-    }
-    
-    
+    },
+    {
+        "displayPicture":"img/team/arka.webp",
+        "name":"Arka Roy",
+        "description":"Volunteer Head",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/arka.roy.338211"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/dishani.webp",
+        "name":"Dishani Saha Poddar",
+        "description":"Event Manager<br/><br/><br/><br/>",
+        "links":[]
+    },
+    {
+        "displayPicture":"img/team/arunima.webp",
+        "name":"Arunima Sarkar",
+        "description":"Co-curator and Public Relations",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/arunima.sarkar.3"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/arunima-sarkar-b66966159/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/sayan.webp",
+        "name":"Sayan Mukherjee",
+        "description":"Operations and Public Relations",
+        "links":[
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/sayanm03?s=09"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sayan.mukherjee.58958"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/sayan-mukherjee-243127121"
+            }
+        ]
+    } 
 ]

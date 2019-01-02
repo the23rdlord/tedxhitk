@@ -1,13 +1,9 @@
 [
     {
-        "displayPicture":"img/team/bhagrab.webp",
+        "displayPicture":"img/team/bhargab.webp",
         "name":"Bhargab Bose",
         "description":"Marketing and Event Management",
         "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arnabdasdevastator?ref=content_filter"
-            },
             {
                 "linkType": "LinkedIn",
                 "link":"https://www.linkedin.com/in/bhargab-bose-832a42145"
@@ -96,7 +92,7 @@
         "links":[
             {
                 "linkType": "Facebook",
-                "link": "www.facebook.com/sourav.dey.714655"
+                "link": "https://www.facebook.com/sourav.dey.714655"
             },
             {
                 "linkType": "LinkedIn",
@@ -104,7 +100,7 @@
             },
             {
                 "linkType": "Blog",
-                "link": "www.mirakee.com/sourav_dey"
+                "link": "https://www.mirakee.com/sourav_dey"
             }
         ]
     },
@@ -126,7 +122,7 @@
         "links":[
             {
                 "linkType": "Facebook",
-                "link": "www.facebook.com/profile.php?id=100002757933628"
+                "link": "https://www.facebook.com/profile.php?id=100002757933628"
             },
             {
                 "linkType": "LinkedIn",
