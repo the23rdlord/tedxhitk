@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     function getTemplate(member) {
         var template =
-            `<div class="col-lg-3 col-md-6 col-sm-6 container-team-member">
+            `<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 container-team-member extra-team">
                 <div class=" float-my-children">
                     <img src="../` + member.displayPicture + `" alt="` + member.name +`'s portrait." />
                     <div class="team-member-details">

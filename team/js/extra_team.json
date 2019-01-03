@@ -1,68 +1,34 @@
 [
     {
-        "displayPicture":"img/team/bhargab.webp",
-        "name":"Bhargab Bose",
-        "description":"Marketing and Event Management Team",
+        "displayPicture":"img/team/ayush.webp",
+        "name":"Ayush Agarwal",
+        "description":"Creative Team",
         "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/simplyayush28"
+            },
             {
                 "linkType": "LinkedIn",
-                "link":"https://www.linkedin.com/in/bhargab-bose-832a42145"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/rinkesh.webp",
-        "name":"Rinkesh Kumar",
-        "description":"Marketing and Event Management Team<br /><br />",
-        "links":[
-        ]
-    },
-    {
-        "displayPicture":"img/team/abhishek.webp",
-        "name":"Abhishek Kumar Singh",
-        "description":"Marketing and Event Management",
-        "links":[
+                "link": "https://www.linkedin.com/in/ayushagarwal28/"
+            },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/abhishek.boss.2104"
+                "linkType": "Blog",
+                "link": "https://www.instagram.com/ayushagarwal28/"
             }
-        ]
-    },
-    {
-        "displayPicture":"img/team/riya.webp",
-        "name":"Riya Singh",
-        "description":"Marketing and Event Management<br/><br/><br/>",
-        "links":[]
-    },
-    {
-        "displayPicture":"img/team/rai.webp",
-        "name":"Rai Komal Bhattacharya",
-        "description":"Marketing and Event Management",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/rai.k.bhattacharya"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/suman.webp",
-        "name":"Suman Kora",
-        "description":"Marketing and Event Management<br /><br />",
-        "links":[
         ]
     },
     {
         "displayPicture":"img/team/rounak.webp",
         "name":"Rounak Tikadar",
-        "description":"Creative Team<br /><br /><br />",
+        "description":"Creative Team<br /><br />",
         "links":[
         ]
     },
     {
         "displayPicture":"img/team/debapratim.webp",
         "name":"Debapratim Chakraborty",
-        "description":"Creative Team<br /><br />",
+        "description":"Creative Team<br />",
         "links":[
             {
                 "linkType": "Facebook",
@@ -88,8 +54,12 @@
     {
         "displayPicture":"img/team/somopriya.webp",
         "name":"Somopriya Sett",
-        "description":"Creative Team<br><br>",
+        "description":"Creative Team",
         "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://m.facebook.com/somopriya.seth.75"
+            }
         ]
     },
     {
@@ -128,27 +98,16 @@
         "description":"Creative Team",
         "links":[
             {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sanchari.roy.9256"
+            },
+            {
                 "linkType": "Blog",
                 "link": "https://lettertoh.blogspot.com/?m=1"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/ayush.webp",
-        "name":"Ayush Agarwal",
-        "description":"Creative Team",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/simplyayush28"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/ayushagarwal28/"
-            },
-            {
-                "linkType": "Blog",
-                "link": "https://www.instagram.com/ayushagarwal28/"
+                "link":"https://www.linkedin.com/in/sanchari-roy-7a2464163"
             }
         ]
     },
@@ -170,8 +129,65 @@
     {
         "displayPicture":"img/team/arpan.webp",
         "name":"Arpan Ghosh",
-        "description":"Curation Team<br><br><br>",
+        "description":"Curation Team",
         "links":[
         ]
-    } 
+    },
+    {
+        "displayPicture":"img/team/bhargab.webp",
+        "name":"Bhargab Bose",
+        "description":"Marketing and Event Management Team",
+        "links":[
+            {
+                "linkType": "LinkedIn",
+                "link":"https://www.linkedin.com/in/bhargab-bose-832a42145"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/rinkesh.webp",
+        "name":"Rinkesh Kumar",
+        "description":"Marketing and Event Management Team<br/><br/><br/>",
+        "links":[
+        ]
+    },
+    {
+        "displayPicture":"img/team/abhishek.webp",
+        "name":"Abhishek Kumar Singh",
+        "description":"Marketing and Event Management",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/abhishek.boss.2104"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/riya.webp",
+        "name":"Riya Singh",
+        "description":"Marketing and Event Management",
+        "links":[]
+    },
+    {
+        "displayPicture":"img/team/rai.webp",
+        "name":"Rai Komal Bhattacharya",
+        "description":"Marketing and Event Management",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/rai.k.bhattacharya"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/suman.webp",
+        "name":"Suman Kora",
+        "description":"Marketing and Event Management<br /><br />",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/suman.kora.7"
+            }
+        ]
+    }
 ]

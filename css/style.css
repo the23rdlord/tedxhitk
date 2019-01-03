@@ -10,7 +10,6 @@
   bottom: 0;
   z-index: 2;
   transition: top 1s;
-  /*display: none;*/
 }
 
 #landing-overlay #landing-overlay-logo {
@@ -93,6 +92,7 @@
   z-index: 2;
   transition: top 1s;
   overflow-y: scroll;
+  background-color: #ffffff;
 }
 
 #landing {

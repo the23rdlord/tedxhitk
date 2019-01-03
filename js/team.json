@@ -159,6 +159,12 @@
         ]
     },
     {
+        "displayPicture":"img/team/dishani.webp",
+        "name":"Dishani Saha Poddar",
+        "description":"Event Manager<br/><br/><br/><br/>",
+        "links":[]
+    },
+    {
         "displayPicture":"img/team/arka.webp",
         "name":"Arka Roy",
         "description":"Volunteer Head",
@@ -168,11 +174,5 @@
                 "link": "https://www.facebook.com/arka.roy.338211"
             }
         ]
-    },
-    {
-        "displayPicture":"img/team/dishani.webp",
-        "name":"Dishani Saha Poddar",
-        "description":"Event Manager<br/><br/><br/><br/>",
-        "links":[]
     }
 ]
