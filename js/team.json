@@ -66,7 +66,7 @@
     {
         "displayPicture":"img/team/arunima.webp",
         "name":"Arunima Sarkar",
-        "description":"Co-curator and Public Relations",
+        "description":"Curator and Public Relations",
         "links":[
             {
                 "linkType": "Facebook",
@@ -303,9 +303,20 @@
         ]
     },
     {
+        "displayPicture":"img/team/rohan.webp",
+        "name":"Rohan Sen",
+        "description":"Curation Team",
+        "links":[
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/rohan.sen.73932646"
+            }
+        ]
+    },
+    {
         "displayPicture":"img/team/arpan.webp",
         "name":"Arpan Ghosh",
-        "description":"Curation Team",
+        "description":"Curation Team<br><br>",
         "links":[
         ]
     },
@@ -323,7 +334,7 @@
     {
         "displayPicture":"img/team/rinkesh.webp",
         "name":"Rinkesh Kumar",
-        "description":"Marketing and Event Management Team<br/><br/>",
+        "description":"Marketing and Event Management Team<br/><br/><br>",
         "links":[
         ]
     },
@@ -363,6 +374,17 @@
             {
                 "linkType": "Facebook",
                 "link": "https://www.facebook.com/suman.kora.7"
+            }
+        ]
+    },
+    {
+        "displayPicture":"img/team/samyabrata.webp",
+        "name":"Samyabrata Das",
+        "description":"Marketing and Event Management",
+        "links":[
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/iam_Sbd"
             }
         ]
     }
