@@ -247,7 +247,7 @@ nav.navbar {
   margin: 0px 10px 0px -5px;
 }
 
-#container-team .container-team-member{
+#container-team .container-team-member, #container-team-extra .container-team-member{
   padding-bottom: 50px;
 }
 #container-performer .container-performer-member {
@@ -258,7 +258,7 @@ nav.navbar {
   margin: 0px 20px;
 }
 
-#container-team .float-my-children > *, #container-performer .float-my-children > *,#container-team-extra .float-my-children > * {
+#container-team .float-my-children > *, #container-performer .float-my-children > *, #container-team-extra .float-my-children > * {
   margin-right: 5px;
 }
 
