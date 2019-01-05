@@ -230,35 +230,43 @@ nav.navbar {
   margin: 0px 10px 0px -5px;
 }
 
-#container-team .container-team-member {
+#container-team .container-team-member{
   padding-bottom: 50px;
 }
+#container-performer .container-performer-member {
+  padding-bottom: 150px;
+}
 
-#container-team .float-my-children {
+#container-team .float-my-children, #container-performer .float-my-children {
   margin: 0px 20px;
 }
 
-#container-team .float-my-children > * {
+#container-team .float-my-children > *, #container-performer .float-my-children > * {
   margin-right: 5px;
 }
 
-#container-team .float-my-children img {
+#container-team .float-my-children img{
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
-
-#container-team .clearfix {
+#container-performer .float-my-children img {
+  width: 150px;
+  height: 150px;
+}
+#container-team .clearfix, #container-performer .clearfix  {
   *zoom: 1;
 }
 
 #container-team .clearfix:before,
-#container-team .clearfix:after {
+#container-team .clearfix:after,
+#container-performer .clearfix:before,
+#container-performer .clearfix:after {
   content: " ";
   display: table;
 }
 
-#container-team .clearfix:after {
+#container-team .clearfix:after, #container-performer .clearfix:after {
   clear: both;
 }
 
@@ -272,7 +280,7 @@ nav.navbar {
   display: inline-block;
 }
 
-#container-team ul li a i {
+#container-team ul li a i, {
   display: block;
   color: #888;
   margin: 0px 15px 0px 0px;
@@ -280,12 +288,12 @@ nav.navbar {
   text-align: center;
 }
 
-#container-team .team-member-details {
+#container-team .team-member-details{
   margin: 10px auto 16px 0px;
   font-weight: bold;
 }
 
-#container-team .team-member-details .team-member-name {
+#container-team .team-member-details .team-member-name{
   color: #ee0000;
 }
 
@@ -441,7 +449,7 @@ footer a:hover {
   .countdown-description {
     font-size: 2.5vw !important;
   }
-  #container-team .container-team-member {
+  #container-team .container-team-member, #container-performer, .container-performer-member {
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -523,4 +531,8 @@ footer a:hover {
   #landing-overlay #overlay-social {
     left: 8%;
   }
+  #container-performer .container-performer-member {
+    padding-bottom: 50px;
+  }
+  
 }
