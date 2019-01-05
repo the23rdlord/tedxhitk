@@ -165,7 +165,7 @@
     {
         "displayPicture":"img/team/abhishek.webp",
         "name":"Abhishek Kumar Singh",
-        "description":"Marketing and Event Management",
+        "description":"Marketing and Event Management Team",
         "links":[
             {
                 "linkType": "Facebook",
@@ -176,13 +176,13 @@
     {
         "displayPicture":"img/team/riya.webp",
         "name":"Riya Singh",
-        "description":"Marketing and Event Management",
+        "description":"Marketing and Event Management Team",
         "links":[]
     },
     {
         "displayPicture":"img/team/rai.webp",
         "name":"Rai Komal Bhattacharya",
-        "description":"Marketing and Event Management",
+        "description":"Marketing and Event Management Team",
         "links":[
             {
                 "linkType": "Facebook",
@@ -193,7 +193,7 @@
     {
         "displayPicture":"img/team/suman.webp",
         "name":"Suman Kora",
-        "description":"Marketing and Event Management",
+        "description":"Marketing and Event Management Team",
         "links":[
             {
                 "linkType": "Facebook",
@@ -204,7 +204,7 @@
     {
         "displayPicture":"img/team/samyabrata.webp",
         "name":"Samyabrata Das",
-        "description":"Marketing and Event Management",
+        "description":"Marketing and Event Management Team",
         "links":[
             {
                 "linkType": "Twitter",
