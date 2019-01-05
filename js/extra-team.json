@@ -1,6 +1,6 @@
 [
     {
-        "displayPicture":"img/team/ayush.webp",
+        "displayPicture":"img/team/ayush.jpg",
         "name":"Ayush Agarwal",
         "description":"Creative Team",
         "links":[
@@ -19,14 +19,14 @@
         ]
     },
     {
-        "displayPicture":"img/team/rounak.webp",
+        "displayPicture":"img/team/rounak.jpg",
         "name":"Rounak Tikadar",
         "description":"Creative Team<br />",
         "links":[
         ]
     },
     {
-        "displayPicture":"img/team/debapratim.webp",
+        "displayPicture":"img/team/debapratim.jpg",
         "name":"Debapratim Chakraborty",
         "description":"Creative Team<br />",
         "links":[
@@ -41,7 +41,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/puja.webp",
+        "displayPicture":"img/team/puja.jpg",
         "name":"Puja Sharma",
         "description":"Creative Team",
         "links":[
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/somopriya.webp",
+        "displayPicture":"img/team/somopriya.jpg",
         "name":"Somopriya Sett",
         "description":"Creative Team",
         "links":[
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/sourav.webp",
+        "displayPicture":"img/team/sourav.jpg",
         "name":"Sourav Dey",
         "description":"Creative Team",
         "links":[
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/anirban.webp",
+        "displayPicture":"img/team/anirban.jpg",
         "name":"Anirban Mahapatra",
         "description":"Creative Team",
         "links":[
@@ -93,7 +93,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/sanchari.webp",
+        "displayPicture":"img/team/sanchari.jpg",
         "name":"Sanchari Roy",
         "description":"Creative Team",
         "links":[
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/megha.webp",
+        "displayPicture":"img/team/megha.jpg",
         "name":"Megha Saha",
         "description":"Curation Team",
         "links":[
@@ -127,7 +127,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/rohan.webp",
+        "displayPicture":"img/team/rohan.jpg",
         "name":"Rohan Sen",
         "description":"Curation Team",
         "links":[
@@ -138,14 +138,14 @@
         ]
     },
     {
-        "displayPicture":"img/team/arpan.webp",
+        "displayPicture":"img/team/arpan.jpg",
         "name":"Arpan Ghosh",
         "description":"Curation Team<br><br>",
         "links":[
         ]
     },
     {
-        "displayPicture":"img/team/bhargab.webp",
+        "displayPicture":"img/team/bhargab.jpg",
         "name":"Bhargab Bose",
         "description":"Marketing and Event Management Team",
         "links":[
@@ -156,14 +156,14 @@
         ]
     },
     {
-        "displayPicture":"img/team/rinkesh.webp",
+        "displayPicture":"img/team/rinkesh.jpg",
         "name":"Rinkesh Kumar",
         "description":"Marketing and Event Management Team<br/><br/><br>",
         "links":[
         ]
     },
     {
-        "displayPicture":"img/team/abhishek.webp",
+        "displayPicture":"img/team/abhishek.jpg",
         "name":"Abhishek Kumar Singh",
         "description":"Marketing and Event Management Team",
         "links":[
@@ -174,13 +174,13 @@
         ]
     },
     {
-        "displayPicture":"img/team/riya.webp",
+        "displayPicture":"img/team/riya.jpg",
         "name":"Riya Singh",
         "description":"Marketing and Event Management Team",
         "links":[]
     },
     {
-        "displayPicture":"img/team/rai.webp",
+        "displayPicture":"img/team/rai.jpg",
         "name":"Rai Komal Bhattacharya",
         "description":"Marketing and Event Management Team",
         "links":[
@@ -191,7 +191,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/suman.webp",
+        "displayPicture":"img/team/suman.jpg",
         "name":"Suman Kora",
         "description":"Marketing and Event Management Team",
         "links":[
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/samyabrata.webp",
+        "displayPicture":"img/team/samyabrata.jpg",
         "name":"Samyabrata Das",
         "description":"Marketing and Event Management Team",
         "links":[
