@@ -1,12 +1,9 @@
 $(document).ready(function () {
     getTeam();
     $('#explore-button').on('click', function () {
-        $('#landing-overlay').css({
-            'top': '-100%'
-        });
-        $('#main').css({
-            'top': '0%'
-        });
+        $('html,body').animate({
+            scrollTop: $("#main").offset().top},
+            'slow');
     });
 
     function getLinks(member) {
