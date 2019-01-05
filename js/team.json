@@ -1,6 +1,6 @@
 [
     {
-        "displayPicture":"img/team/arnab.webp",
+        "displayPicture":"img/team/arnab.jpg",
         "name":"Arnab Das",
         "description":"Licensee",
         "links":[
@@ -15,7 +15,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/sabyasachi.webp",
+        "displayPicture":"img/team/sabyasachi.jpg",
         "name":"Sabyasachi Tewary",
         "description":"Chief Curator",
         "links":[
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/debo.webp",
+        "displayPicture":"img/team/debo.jpg",
         "name":"Debojyoti Sinha Roy",
         "description":"Marketing Director",
         "links":[
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/sounak.webp",
+        "displayPicture":"img/team/sounak.jpg",
         "name":"Sounak Dey Roy",
         "description":"Executive Producer",
         "links":[
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/arunima.webp",
+        "displayPicture":"img/team/arunima.jpg",
         "name":"Arunima Sarkar",
         "description":"Curation and Public Relations",
         "links":[
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/sayan.webp",
+        "displayPicture":"img/team/sayan.jpg",
         "name":"Sayan Mukherjee",
         "description":"Operations and Public Relations",
         "links":[
@@ -98,7 +98,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/utkarsh.webp",
+        "displayPicture":"img/team/utkarsh.jpg",
         "name":"Utkarsh Singhania",
         "description":"Photography and Videography Lead",
         "links":[
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/alfarhan.webp",
+        "displayPicture":"img/team/alfarhan.jpg",
         "name":"Alfarhan Zahedi",
         "description":"Web Team<br /><br />",
         "links":[
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "displayPicture":"img/team/jatin.webp",
+        "displayPicture":"img/team/jatin.jpg",
         "name":"Jatin Pandey",
         "description":"Web Team<br/><br/>",
         "links":[
@@ -159,13 +159,13 @@
         ]
     },
     {
-        "displayPicture":"img/team/dishani.webp",
+        "displayPicture":"img/team/dishani.jpg",
         "name":"Dishani Saha Poddar",
         "description":"Event Manager<br/><br/>",
         "links":[]
     },
     {
-        "displayPicture":"img/team/arka.webp",
+        "displayPicture":"img/team/arka.jpg",
         "name":"Arka Roy",
         "description":"Volunteer Head",
         "links":[
