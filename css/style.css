@@ -280,7 +280,7 @@ nav.navbar {
   display: inline-block;
 }
 
-#container-team ul li a i, {
+#container-team ul li a i {
   display: block;
   color: #888;
   margin: 0px 15px 0px 0px;
