@@ -5,6 +5,14 @@ $(document).ready(function () {
             scrollTop: $("#main").offset().top},
             'slow');
     });
+    $('#show-extra-members').on('click', function(){
+        $('#container-team-extra').slideToggle("slow");
+        var element = $('#show-extra-members-content');
+        if(element.text() == 'Show \'em all')
+            element.text('Hide \'em all');
+        else
+            element.text('Show \'em all');
+    });
 
     function getLinks(member) {
         var result = '';
@@ -59,6 +67,13 @@ $(document).ready(function () {
                 html += getTemplate(member);
             });
             $('#container-team').append(html);
+            html = '';
+            $.getJSON('js/extra-team.json', function (members) {
+                members.forEach(function (member) {
+                    html += getTemplate(member);
+                });
+                $('#container-team-extra').append(html);
+            })
         })
     };
 
