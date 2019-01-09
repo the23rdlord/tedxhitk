@@ -1,24 +1,5 @@
 [
     {
-        "displayPicture":"img/team/ayush.jpg",
-        "name":"Ayush Agarwal",
-        "description":"Creative Team",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/simplyayush28"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/ayushagarwal28/"
-            },
-            {
-                "linkType": "Blog",
-                "link": "https://www.instagram.com/ayushagarwal28/"
-            }
-        ]
-    },
-    {
         "displayPicture":"img/team/rounak.jpg",
         "name":"Rounak Tikadar",
         "description":"Creative Team<br />",
