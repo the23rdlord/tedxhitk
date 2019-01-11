@@ -192,5 +192,12 @@
                 "link": "https://twitter.com/iam_Sbd"
             }
         ]
+    },
+    {
+        "displayPicture":"img/team/dhruv.jpg",
+        "name":"Dhruv Ruparelia",
+        "description":"Marketing and Event Management Team",
+        "links":[
+        ]
     }
 ]
