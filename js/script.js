@@ -22,8 +22,6 @@ var countDownTimer = () =>
 
 $(document).ready(function() {
   countDownTimer();
-
-  /*getTeam();
   $("#explore-button").on("click", function() {
     $("html,body").animate(
       {
@@ -32,6 +30,9 @@ $(document).ready(function() {
       "slow"
     );
   });
+
+  /*getTeam();
+ 
   $("#show-extra-members").on("click", function() {
     $("#container-team-extra").slideToggle("slow");
     var element = $("#show-extra-members-content");
