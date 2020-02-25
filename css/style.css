@@ -1,17 +1,17 @@
-a{
+a {
   color: inherit;
   cursor: pointer;
 }
 
-a:visited{
+a:visited {
   color: inherit;
 }
 
-a:hover{
+a:hover {
   color: inherit;
 }
 
-a:active{
+a:active {
   color: inherit;
 }
 
@@ -58,6 +58,17 @@ a:active{
   padding-left: 3%;
 }
 
+#theme-for-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 568px) {
+  #theme-for-mobile {
+    display: inline-block;
+    height: 300px;
+  }
+}
+
 #landing-overlay #overlay-social {
   position: absolute;
   bottom: 20px;
@@ -93,7 +104,7 @@ a:active{
   outline: 0px;
 }
 
-#main{
+#main {
   position: absolute;
   top: 100%;
   background-color: #ffffff;
@@ -247,22 +258,28 @@ nav.navbar {
   margin: 0px 10px 0px -5px;
 }
 
-#container-team .container-team-member, #container-team-extra .container-team-member{
+#container-team .container-team-member,
+#container-team-extra .container-team-member {
   padding-bottom: 50px;
 }
 #container-performer .container-performer-member {
   padding-bottom: 150px;
 }
 
-#container-team .float-my-children, #container-performer .float-my-children, #container-team-extra .float-my-children {
+#container-team .float-my-children,
+#container-performer .float-my-children,
+#container-team-extra .float-my-children {
   margin: 0px 20px;
 }
 
-#container-team .float-my-children > *, #container-performer .float-my-children > *, #container-team-extra .float-my-children > * {
+#container-team .float-my-children > *,
+#container-performer .float-my-children > *,
+#container-team-extra .float-my-children > * {
   margin-right: 5px;
 }
 
-#container-team .float-my-children img, #container-team-extra .float-my-children img{
+#container-team .float-my-children img,
+#container-team-extra .float-my-children img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -271,7 +288,9 @@ nav.navbar {
   width: 150px;
   height: 150px;
 }
-#container-team .clearfix, #container-performer .clearfix, #container-team-extra .clearfix  {
+#container-team .clearfix,
+#container-performer .clearfix,
+#container-team-extra .clearfix {
   *zoom: 1;
 }
 
@@ -285,21 +304,26 @@ nav.navbar {
   display: table;
 }
 
-#container-team .clearfix:after, #container-performer .clearfix:after, #container-team-extra .clearfix:after {
+#container-team .clearfix:after,
+#container-performer .clearfix:after,
+#container-team-extra .clearfix:after {
   clear: both;
 }
 
-#container-team ul, #container-team-extra ul {
+#container-team ul,
+#container-team-extra ul {
   margin: 0;
   padding: 7px 0px 0px 0px;
 }
 
-#container-team ul li, #container-team-extra ul li {
+#container-team ul li,
+#container-team-extra ul li {
   list-style: none;
   display: inline-block;
 }
 
-#container-team ul li a i, #container-team-extra ul li a i {
+#container-team ul li a i,
+#container-team-extra ul li a i {
   display: block;
   color: #888;
   margin: 0px 15px 0px 0px;
@@ -307,12 +331,14 @@ nav.navbar {
   text-align: center;
 }
 
-#container-team .team-member-details, #container-team-extra .team-member-details{
+#container-team .team-member-details,
+#container-team-extra .team-member-details {
   margin: 10px auto 16px 0px;
   font-weight: bold;
 }
 
-#container-team .team-member-details .team-member-name, #container-team-extra .team-member-details .team-member-name{
+#container-team .team-member-details .team-member-name,
+#container-team-extra .team-member-details .team-member-name {
   color: #ee0000;
 }
 
@@ -468,7 +494,10 @@ footer a:hover {
   .countdown-description {
     font-size: 2.5vw !important;
   }
-  #container-team .container-team-member, #container-performer, .container-performer-member, #container-team-extra .container-team-member {
+  #container-team .container-team-member,
+  #container-performer,
+  .container-performer-member,
+  #container-team-extra .container-team-member {
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -553,9 +582,8 @@ footer a:hover {
   #container-performer .container-performer-member {
     padding-bottom: 50px;
   }
-  
 }
 
-#container-team-extra{
+#container-team-extra {
   display: none;
 }
