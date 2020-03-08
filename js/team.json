@@ -1,193 +1,80 @@
 [
+  [
     {
-        "displayPicture":"img/team/arnab.jpg",
-        "name":"Arnab Das",
-        "description":"Licensee",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arnabdasdevastator?ref=content_filter"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link":"https://www.linkedin.com/in/arnab-das-70b58614b"
-            }
-        ]
+      "name": "Somopriya Sett",
+      "picture": "./img/team/somopriya.jpg",
+      "designation": "Licensee",
+      "linkedin": "https://www.linkedin.com/in/somopriya-sett-3b0974193/",
+      "facebook": "https://www.facebook.com/somopriya.seth.75",
+      "twitter": "",
+      "website": ""
     },
     {
-        "displayPicture":"img/team/sabyasachi.jpg",
-        "name":"Sabyasachi Tewary",
-        "description":"Chief Curator",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sabyasachi.tewary.1"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/sabyasachi-tewary-484a57b8"
-            }
-        ]
+      "name": "Bodhisattva Kar",
+      "picture": "./img/team/bodhisattva.jpg",
+      "designation": "Chief Curator",
+      "linkedin": "",
+      "facebook": "",
+      "twitter": "",
+      "website": ""
     },
     {
-        "displayPicture":"img/team/debo.jpg",
-        "name":"Debojyoti Sinha Roy",
-        "description":"Marketing Director",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/debojyoti.roy.524"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/debojyoti-sinha-roy-a45176167"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/sounak.jpg",
-        "name":"Sounak Dey Roy",
-        "description":"Executive Producer",
-        "links":[
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/Rimo_snk"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sdeyroy"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/sounak-dey-roy-a82052175/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/arunima.jpg",
-        "name":"Arunima Sarkar",
-        "description":"Curation and Public Relations",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arunima.sarkar.3"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/arunima-sarkar-b66966159/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/sayan.jpg",
-        "name":"Sayan Mukherjee",
-        "description":"Operations and Public Relations",
-        "links":[
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/sayanm03?s=09"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayan.mukherjee.58958"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/sayan-mukherjee-243127121"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/utkarsh.jpg",
-        "name":"Utkarsh Singhania",
-        "description":"Photography and Videography Lead",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/utkarsh.singhania.5"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/Utkarsh_singhan"
-            },
-            {
-                "linkType": "Blog",
-                "link": "https://www.instagram.com/utkarsh_singhania/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/alfarhan.jpg",
-        "name":"Alfarhan Zahedi",
-        "description":"Web Team<br /><br />",
-        "links":[
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/alfarhanzahedi"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/zahedialfarhan"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/alfarhanzahedi/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/jatin.jpg",
-        "name":"Jatin Pandey",
-        "description":"Web Team<br/><br/>",
-        "links":[
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/jatinpandey77"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/jatinm10"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/jatin-pandey/"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/dishani.jpg",
-        "name":"Dishani Saha Poddar",
-        "description":"Event Manager<br/><br/>",
-        "links":[]
-    },
-    {
-        "displayPicture":"img/team/arka.jpg",
-        "name":"Arka Roy",
-        "description":"Volunteer Head",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/arka.roy.338211"
-            }
-        ]
-    },
-    {
-        "displayPicture":"img/team/ayush.jpg",
-        "name":"Ayush Agarwal",
-        "description":"Design Head",
-        "links":[
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/simplyayush28"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/ayushagarwal28/"
-            },
-            {
-                "linkType": "Blog",
-                "link": "https://www.instagram.com/ayushagarwal28/"
-            }
-        ]
+      "name": "Sayantan Dey",
+      "picture": "./img/team/sayantan.jpg",
+      "designation": "Operations and Public Relations",
+      "linkedin": "",
+      "facebook": "",
+      "twitter": "",
+      "website": ""
     }
+  ],
+  [
+    {
+      "name": "Abhijit Roy Chowdhury",
+      "picture": "./img/team/abhijit.jpg",
+      "designation": "Event Management",
+      "linkedin": "",
+      "facebook": "",
+      "twitter": "",
+      "website": ""
+    },
+    {
+      "name": "Sayak Banerjee",
+      "picture": "./img/team/sayak.jpg",
+      "designation": "Co-Curator and Public Relations",
+      "linkedin": "",
+      "facebook": "",
+      "twitter": "",
+      "website": ""
+    },
+    {
+      "name": "Soham Basu",
+      "picture": "./img/team/soham.jpg",
+      "designation": "Creative Head",
+      "linkedin": "https://www.linkedin.com/in/sohambasu07/",
+      "facebook": "https://www.facebook.com/soham.d.basu",
+      "twitter": "",
+      "website": ""
+    }
+  ],
+  [
+    {
+      "name": "Subhasis Das",
+      "picture": "./img/team/subhasis.jpg",
+      "designation": "Web Team",
+      "linkedin": "https://www.linkedin.com/in/subhasis-das-6a00aa172/",
+      "facebook": "",
+      "twitter": "https://twitter.com/geram_er_chhele",
+      "website": "https://subhasisdas.me"
+    },
+    {
+      "name": "Sourav Saha",
+      "picture": "./img/team/sourav.jpg",
+      "designation": "Marketing",
+      "linkedin": "",
+      "facebook": "",
+      "twitter": "",
+      "website": ""
+    }
+  ]
 ]
