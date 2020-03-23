@@ -15,6 +15,18 @@ a:active {
   color: inherit;
 }
 
+.covid {
+  height: 65%;
+  width: 70%;
+}
+
+@media only screen and (max-width: 500px) {
+  .covid {
+    height: 60%;
+    width: 100%;
+  }
+}
+
 #landing-overlay {
   background-color: #000000;
   color: #ffffff;
