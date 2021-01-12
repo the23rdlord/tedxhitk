@@ -1,0 +1,24 @@
+[
+	{
+		"name": "Manvir Singh",
+		"image": "/img/speakers/manvir.png",
+		"occupation": "Food Business Expert, Serial Entrepreneur and a Best-Selling Author",
+		"topic": "Rise and Rise of the Cloud Kitchens",
+		"bio": "<p>Manvir Singh Anand is a Food Business Expert, Serial Entrepreneur and a Best-Selling Author.</p><p>He is the Founder & CEO of Knight Gourmet - is a pan India presence Event Hospitality Solutions Company with 3 local offices in Delhi, Mumbai, and Chennai and a presence across 11 states, 30 cities having experience of serving over 1.35 million people for event properties like India Premier League, Indian Super League, IIFA awards, etc. He’s a strategic Investor, Consultant and mentor to multiple Startups and Cloud Kitchen brands. Also, He's author of National Best-seller \"Catering Your Way to Financial Independence\" and has trained over 3000+ budding food entrepreneurs to start their food business.<p><p> He's a Trained Chef with a Management Degree.</p>"
+	},
+	{
+		"name": "Dr. Biswajit Banerjee",
+		"image": "/img/speakers/drbiswajit.jpg",
+		"occupation": "Specialist General physician and Diabetologist.",
+		"topic": "Pathophysiology and Epidemiology of COVID-19 and how much effective the  Vaccine will be",
+		"bio": "<p>Specialist General physician and Diabetologist.Postgraduate fellowship from CMC, Vellore.Working in the field of Medicine, Cardiology and Diabetology for 27 years.</p>"
+	},
+	{
+		"name": "Shams Aalam",
+		"image": "/img/speakers/shams.jpg",
+		"credits": "Chitralekha Magazine",
+		"occupation": "International gold medalist para swimmer.",
+		"topic": "A champion's motivation is above and beyond winning",
+		"bio": "<p>International gold medalist para swimmer.Awarded best emerging leader in disability sports.</p>"
+	}
+]
