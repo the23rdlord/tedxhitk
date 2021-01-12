@@ -52,16 +52,20 @@ const generateCardMarkup = (speaker, index) => `
 	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">
 							<div class="card" data-toggle="modal" data-target="#modal-${index + 1}">
 								<div class="box">
+								<h2>
+									
+                    ${speaker.name}<br />
+                    <span>${speaker.occupation}</span>
+									</h2>
 									<div class="img">
 										<img
 											src=${speaker.image}
 											alt="${speaker.name}'s portait"
 										/>
 									</div>
-									<h2>
-                    ${speaker.name}<br />
-                    <span>${speaker.occupation}</span>
-									</h2>
+									${getCredits(speaker)}
+
+									
 									<p>
                     Speaking On:<hr/>
                     <h4 >${speaker.topic}</h4>
@@ -71,6 +75,9 @@ const generateCardMarkup = (speaker, index) => `
 							</div>
 						</div>
 `;
+
+const getCredits = (speaker) =>
+	speaker.credits ? `<small>Picture: ${speaker.credits}</small>` : "";
 
 const generateModalMakrup = (speaker, index) => `
 	<div class="modal fade" id="modal-${index + 1}" role="dialog">
