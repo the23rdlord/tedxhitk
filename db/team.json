@@ -1,90 +1,87 @@
 [
-	[
-		{
-			"name": "Somopriya Sett",
-			"picture": "./img/team/somopriya.jpg",
-			"designation": "Licensee",
-			"linkedin": "https://www.linkedin.com/in/somopriya-sett-3b0974193/",
-			"facebook": "https://www.facebook.com/somopriya.seth.75"
-		},
-		{
-			"name": "Sayak Banerjee",
-			"picture": "./img/team/sayak.jpg",
-			"designation": "Chief Curator",
-			"linkedin": "http://linkedin.com/in/sayak-banerjee-4b4a00184",
-			"facebook": "https://m.facebook.com/sayak.banerjee.96155?ref=bookmarks",
-			"instagram": "https://www.instagram.com/sayak____banerjee/"
-		},
-		{
-			"name": "Rakshith Adike",
-			"picture": "./img/team/rakshith.jpg",
-			"designation": "Co-Curator and Public Relations",
-			"linkedin": "https://www.linkedin.com/in/rakshith-adike-163299186",
-			"facebook": "https://www.facebook.com/Rakshith.Adike"
-		}
-	],
-	[
-		{
-			"name": "Rikth Chakraborty",
-			"picture": "./img/team/rikth.jpg",
-			"designation": "Operations Head",
-			"linkedin": "https://www.linkedin.com/in/rikth-chakraborty-073b85152",
-			"facebook": "https://www.facebook.com/rikth.chakraborty",
-			"twitter": "https://twitter.com/RikthChakrabor1?s=09"
-		},
-		{
-			"name": "Sharanya Chaturvedi",
-			"designation": "Event Management",
-			"picture": "/img/team/sharanya.jpg",
-			"facebook": "https://m.facebook.com/sharanya.chaturvedi",
-			"instagram": "https://www.instagram.com/sharanyachaturvedi/",
-			"linkedin": "https://in.linkedin.com/in/sharanya-chaturvedi-64444118b"
-		},
-		{
-			"name": "Aniket Singh",
-			"picture": "./img/team/aniket.jpg",
-			"designation": "Creative Head",
-			"facebook": "https://www.facebook.com/baroniket1",
-			"instagram": "https://www.instagram.com/_baroniket_",
-			"linkedin": "https://www.linkedin.com/in/baroniket",
-			"twitter": "https://www.twitter.com/Baroniket",
-			"website": "https://baroniket.artstation.com"
-		}
-	],
-	[
-		{
-			"name": "Abhranil Misra",
-			"picture": "./img/team/abhranil.jpg",
-			"designation": "Operations",
-			"facebook": "https://www.facebook.com/abhranil.misra.77",
-			"twitter": "https://mobile.twitter.com/_Abhranil",
-			"instagram": "https://www.instagram.com/abhranil_m/"
-		},
-		{
-			"name": "Niladri Sekhar Adhikari",
-			"picture": "./img/team/niladri.jpg",
-			"designation": "Operations",
-			"facebook": "https://m.facebook.com/niladri.adhikari.3",
-			"twitter": "https://twitter.com/ronbale07?s=09",
-			"instagram": "https://instagram.com/blue_mountain07?igshid=r9qybmovxvwn",
-			"linkedin": "https://www.linkedin.com/in/niladri-sekhar-adhikari-8648b9199"
-		},
-		{
-			"name": "Sourav Saha",
-			"picture": "./img/team/sourav.jpg",
-			"designation": "Marketing",
-			"linkedin": "https://www.linkedin.com/in/sourav-saha-bbbbb5175",
-			"facebook": "https://m.facebook.com/yashrajsaha"
-		}
-	],
-	[
-		{
-			"name": "Subhasis Das",
-			"picture": "./img/team/subhasis.jpg",
-			"designation": "Web Team",
-			"linkedin": "https://www.linkedin.com/in/subhasis020299/",
-			"twitter": "https://twitter.com/geram_er_chhele",
-			"website": "https://subhasis.tech"
-		}
-	]
+	{
+		"name": "Somopriya Sett",
+		"picture": "./img/team/somopriya.jpg",
+		"designation": "Licensee",
+		"linkedin": "https://www.linkedin.com/in/somopriya-sett-3b0974193/",
+		"facebook": "https://www.facebook.com/somopriya.seth.75"
+	},
+	{
+		"name": "Sayak Banerjee",
+		"picture": "./img/team/sayak.jpg",
+		"designation": "Chief Curator",
+		"linkedin": "http://linkedin.com/in/sayak-banerjee-4b4a00184",
+		"facebook": "https://m.facebook.com/sayak.banerjee.96155?ref=bookmarks",
+		"instagram": "https://www.instagram.com/sayak____banerjee/"
+	},
+	{
+		"name": "Rakshith Adike",
+		"picture": "./img/team/rakshith.jpg",
+		"designation": "Co-Curator and Public Relations",
+		"linkedin": "https://www.linkedin.com/in/rakshith-adike-163299186",
+		"facebook": "https://www.facebook.com/Rakshith.Adike"
+	},
+	{
+		"name": "Rikth Chakraborty",
+		"picture": "./img/team/rikth.jpg",
+		"designation": "Operations Head",
+		"linkedin": "https://www.linkedin.com/in/rikth-chakraborty-073b85152",
+		"facebook": "https://www.facebook.com/rikth.chakraborty",
+		"twitter": "https://twitter.com/RikthChakrabor1?s=09"
+	},
+	{
+		"name": "Sharanya Chaturvedi",
+		"designation": "Event Management",
+		"picture": "/img/team/sharanya.jpg",
+		"facebook": "https://m.facebook.com/sharanya.chaturvedi",
+		"instagram": "https://www.instagram.com/sharanyachaturvedi/",
+		"linkedin": "https://in.linkedin.com/in/sharanya-chaturvedi-64444118b"
+	},
+	{
+		"name": "Aniket Singh",
+		"picture": "./img/team/aniket.jpg",
+		"designation": "Creative Head",
+		"facebook": "https://www.facebook.com/baroniket1",
+		"instagram": "https://www.instagram.com/_baroniket_",
+		"linkedin": "https://www.linkedin.com/in/baroniket",
+		"twitter": "https://www.twitter.com/Baroniket",
+		"website": "https://baroniket.artstation.com"
+	},
+	{
+		"name": "Shirsha Ray",
+		"picture": "./img/team/shirsha.jpeg",
+		"designation": "Creative Head 2"
+	},
+	{
+		"name": "Abhranil Misra",
+		"picture": "./img/team/abhranil.jpg",
+		"designation": "Operations",
+		"facebook": "https://www.facebook.com/abhranil.misra.77",
+		"twitter": "https://mobile.twitter.com/_Abhranil",
+		"instagram": "https://www.instagram.com/abhranil_m/"
+	},
+	{
+		"name": "Niladri Sekhar Adhikari",
+		"picture": "./img/team/niladri.jpg",
+		"designation": "Operations",
+		"facebook": "https://m.facebook.com/niladri.adhikari.3",
+		"twitter": "https://twitter.com/ronbale07?s=09",
+		"instagram": "https://instagram.com/blue_mountain07?igshid=r9qybmovxvwn",
+		"linkedin": "https://www.linkedin.com/in/niladri-sekhar-adhikari-8648b9199"
+	},
+	{
+		"name": "Sourav Saha",
+		"picture": "./img/team/sourav.jpg",
+		"designation": "Marketing",
+		"linkedin": "https://www.linkedin.com/in/sourav-saha-bbbbb5175",
+		"facebook": "https://m.facebook.com/yashrajsaha"
+	},
+	{
+		"name": "Subhasis Das",
+		"picture": "./img/team/subhasis.jpg",
+		"designation": "Web Team",
+		"linkedin": "https://www.linkedin.com/in/subhasis020299/",
+		"twitter": "https://twitter.com/geram_er_chhele",
+		"website": "https://subhasis.tech"
+	}
 ]

@@ -109,10 +109,9 @@ const getTeam = async () => {
 	let outputMarkup = "";
 	try {
 		const members = await $.getJSON("/db/team.json");
-		members.forEach((row) => {
-			outputMarkup += `<div class="row">`;
-			row.forEach((member) => {
-				outputMarkup += `
+		outputMarkup += `<div class="row">`;
+		members.forEach((member) => {
+			outputMarkup += `
       <div class="col-sm-4 container-team-member">
         <div class="float-my-children">
           <img src="${member.picture}" alt="${member.name}'s picture" />
@@ -130,9 +129,8 @@ const getTeam = async () => {
         </div>
       </div>
     `;
-			});
-			outputMarkup += "</div>";
 		});
+		outputMarkup += "</div>";
 	} catch (error) {
 		console.log(error);
 		outputMarkup = `Error in loading team!`;
