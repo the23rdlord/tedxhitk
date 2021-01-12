@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(() => {
 	countDays();
 	$("#explore-button").on("click", function () {
 		$("html,body").animate(
@@ -8,18 +8,105 @@ $(document).ready(function () {
 			"slow"
 		);
 	});
-
+	getSpeakers();
 	getTeam();
 });
 
-/** ===TEAM RENDERING JS=== */
-async function getTeam() {
-	const members = await $.getJSON("/js/team.json");
+/** COUNTDOWN */
+const countDays = () => {
+	const eventDate = new Date("16 Jan 2021");
+	const today = new Date();
+
+	const days = eventDate.getDate() - today.getDate();
 	let outputMarkup = "";
-	members.forEach((row) => {
-		outputMarkup += `<div class="row">`;
-		row.forEach((member) => {
-			outputMarkup += `
+	if (days > 0) {
+		outputMarkup = `<span class='text-red'>${days}</span> Days to go...`;
+	} else if (days === 0) {
+		outputMarkup = "SEE YOU TODAY!";
+	} else {
+		outputMarkup = "See you next year :-)";
+	}
+	document.getElementById("day-count").innerHTML = outputMarkup;
+};
+
+/** ===Speaker rendering JS=== */
+const getSpeakers = async () => {
+	let cardMarkup = "";
+	let modalMarkup = "";
+
+	try {
+		const speakers = await $.getJSON("/db/speakers.json");
+		speakers.forEach((speaker, index) => {
+			cardMarkup += generateCardMarkup(speaker, index);
+			modalMarkup += generateModalMakrup(speaker, index);
+		});
+	} catch (error) {
+		console.log(error);
+		cardMarkup = "Error in loading speakers!";
+	}
+	document.getElementById("speakers-area").innerHTML = cardMarkup;
+	document.getElementById("modals-speaker").innerHTML = modalMarkup;
+};
+
+const generateCardMarkup = (speaker, index) => `
+	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">
+							<div class="card" data-toggle="modal" data-target="#modal-${index + 1}">
+								<div class="box">
+									<div class="img">
+										<img
+											src=${speaker.image}
+											alt="${speaker.name}'s portait"
+										/>
+									</div>
+									<h2>
+                    ${speaker.name}<br />
+                    <span>${speaker.occupation}</span>
+									</h2>
+									<hr />
+									<p>
+                    Speaking On:
+                    <h4>${speaker.topic}</h4>
+									</p>
+									<hr />
+								</div>
+							</div>
+						</div>
+`;
+
+const generateModalMakrup = (speaker, index) => `
+	<div class="modal fade" id="modal-${index + 1}" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">
+								&times;
+							</button>
+							<img src=${speaker.image} alt="${speaker.name}'s portrait." />
+							<div class="modal-title font-bolder">
+								<h3 class="font-bolder">${speaker.name}</h3>
+								${speaker.occupation}
+							</div>
+						</div>
+						<div class="modal-body">
+							<p>
+						    ${speaker.bio}
+							</p>
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
+`;
+
+/** ===TEAM RENDERING JS=== */
+const getTeam = async () => {
+	let outputMarkup = "";
+	try {
+		const members = await $.getJSON("/db/team.json");
+		members.forEach((row) => {
+			outputMarkup += `<div class="row">`;
+			row.forEach((member) => {
+				outputMarkup += `
       <div class="col-sm-4 container-team-member">
         <div class="float-my-children">
           <img src="${member.picture}" alt="${member.name}'s picture" />
@@ -37,12 +124,16 @@ async function getTeam() {
         </div>
       </div>
     `;
+			});
+			outputMarkup += "</div>";
 		});
-		outputMarkup += "</div>";
-	});
+	} catch (error) {
+		console.log(error);
+		outputMarkup = `Error in loading team!`;
+	}
 
 	$("#container-team").html(outputMarkup);
-}
+};
 
 function getLinks(member) {
 	let markup = "";
@@ -97,16 +188,3 @@ function getLinks(member) {
 
 	return markup;
 }
-
-/** COUNTDOWN */
-var eventDate = new Date("Mar 24, 2020 10:00:00").getTime();
-
-var countDays = () => {
-	const eventDate = new Date("16 Jan 2021");
-	const today = new Date();
-
-	const days = eventDate.getDate() - today.getDate();
-	document.getElementById(
-		"day-count"
-	).innerHTML = `<span class='text-red'>${days}</span> Days to go...`;
-};
