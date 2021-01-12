@@ -62,12 +62,11 @@ const generateCardMarkup = (speaker, index) => `
                     ${speaker.name}<br />
                     <span>${speaker.occupation}</span>
 									</h2>
-									<hr />
 									<p>
-                    Speaking On:
-                    <h4>${speaker.topic}</h4>
+                    Speaking On:<hr/>
+                    <h4 >${speaker.topic}</h4>
 									</p>
-									<hr />
+									
 								</div>
 							</div>
 						</div>
