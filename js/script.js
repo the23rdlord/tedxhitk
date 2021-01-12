@@ -65,6 +65,15 @@ function getLinks(member) {
     </li>
     `;
 	}
+	if (member.instagram) {
+		markup += `
+    <li>
+      <a href=  ${member.instagram} target="noopener noreferrer" aria-label="${member.name}' linkedin account">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    `;
+	}
 
 	if (member.twitter) {
 		markup += `
