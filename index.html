@@ -1,164 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>TEDxHITKolkata</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="TEDxHITKolkata aims to break the stereotype of conventional thinking and hence, inculcates the idea of rational thinking were the minds are 'LOADING LIMITLESS'."
-    />
-    <meta name="authors" content="Alfarhan Zahedi, Jatin Pandey,Subhasis Das" />
-    <meta property="og:title" content="TEDxHITKolkata" />
-    <meta property="og:type" content="website" />
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>TEDxHITKolkata</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="TEDxHITKolkata aims to break the stereotype of conventional thinking and hence, inculcates the idea of rational thinking were the minds are 'LOADING LIMITLESS'."
+		/>
+		<meta name="authors" content="Alfarhan Zahedi, Jatin Pandey,Subhasis Das" />
+		<meta property="og:title" content="TEDxHITKolkata" />
+		<meta property="og:type" content="website" />
 
-    <meta property="og:image" content="https://tedxhitkolkata.in/img/fb.jpg" />
-    <meta
-      property="og:image:secure_url"
-      content="https://tedxhitkolkata.in/img/fb.jpg"
-    />
-    <meta property="og:url" content="https://tedxhitkolkata.in/" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="msapplication-navbutton-color" content="#000000" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
-      integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/style.css"
-    />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/fonts.css"
-    />
-  </head>
-  <body>
-    <div id="landing-overlay">
-      <img
-        id="landing-overlay-logo"
-        src="img/logo.jpg"
-        class="img-responsive"
-        alt="TEDx HIT Kolkata's logo."
-      />
-      <img src="/img/covid.jpeg" class="covid" />
-      <!--TIMER
+		<meta property="og:image" content="https://tedxhitkolkata.in/img/fb.jpg" />
+		<meta
+			property="og:image:secure_url"
+			content="https://tedxhitkolkata.in/img/fb.jpg"
+		/>
+		<meta property="og:url" content="https://tedxhitkolkata.in/" />
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="msapplication-navbutton-color" content="#000000" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+			integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="css/style.css"
+		/>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="css/fonts.css"
+		/>
+	</head>
+	<body>
+		<div id="landing-overlay">
+			<img
+				id="landing-overlay-logo"
+				src="img/logo.jpg"
+				class="img-responsive"
+				alt="TEDx HIT Kolkata's logo."
+			/>
+			<div class="center-content">
+				<div id="day-count"></div>
+				<br />
+				<!--Theme Logo-->
+				<img
+					id="landing-overlay-image"
+					src="img/theme-logo.png"
+					alt="Theme banner."
+				/>
+				<!--Logo again, cause I dont wanna mess with someone else's css-->
+				<img src="img/theme-logo.png" id="theme-for-mobile" />
+			</div>
 
-      <div id="countdown-timer">
-        <div class="countdown-timer-block">
-          <div id="countdown-timer-days">00</div>
-          <p class="countdown-description countdown-description-days">DAYS</p>
-        </div>
-        <div class="countdown-timer-divider"><span>:</span></div>
-        <div class="countdown-timer-block">
-          <div id="countdown-timer-hours">00</div>
-          <p class="countdown-description">HOURS</p>
-        </div>
-        <div class="countdown-timer-divider"><span>:</span></div>
-        <div class="countdown-timer-block">
-          <div id="countdown-timer-minutes">00</div>
-          <p class="countdown-description">MINUTES</p>
-        </div>
-        <div class="countdown-timer-divider"><span>:</span></div>
-        <div class="countdown-timer-block">
-          <div id="countdown-timer-seconds">00</div>
-          <p class="countdown-description">SECONDS</p>
-        </div>
-      </div>
-      -->
+			<!--SOCIAL ICONS-->
+			<div id="overlay-social">
+				<a
+					rel="noreferrer noopener"
+					href="https://facebook.com/tedxhitkolkata/"
+					target="_blank"
+					aria-label="Follow us on Facebook."
+					><i class="fab fa-facebook"></i
+				></a>
+				<a
+					rel="noreferrer noopener"
+					href="https://twitter.com/hitkolkata"
+					target="_blank"
+					aria-label="Follow us on Twitter."
+					><i class="fab fa-twitter"></i
+				></a>
+				<a
+					rel="noreferrer noopener"
+					href="https://instagram.com/tedx_hitkolkata/"
+					target="_blank"
+					aria-label="Follow us on Instagram."
+					><i class="fab fa-instagram" aria-hidden="true"></i
+				></a>
+			</div>
+			<button id="explore-button" class="btn">EXPLORE</button>
+		</div>
 
-      <!--Theme Logo-->
-      <img
-        id="landing-overlay-image"
-        src="img/theme-logo.png"
-        alt="Theme banner."
-      />
-      <!--Logo again, cause I dont wanna mess with someone else's css-->
-      <!-- <img src="img/theme-logo.png" id="theme-for-mobile" /> -->
+		<div id="main" class="font__open-sans">
+			<div id="landing" class="text-center">
+				<h1 class="font__oswald sub-heading">THEME: LOADING LIMITLESS</h1>
+				<hr class="small-hr" />
+				<div class="details">
+					<p>16 January 2021</p>
+					<p>at</p>
+					<p>Swami Vivekananda Auditorium</p>
+					<p>Heritage Institute of Technology</p>
+				</div>
+				<hr class="small-hr" />
 
-      <!--SOCIAL ICONS-->
-      <div id="overlay-social">
-        <a
-          rel="noreferrer noopener"
-          href="https://facebook.com/tedxhitkolkata/"
-          target="_blank"
-          aria-label="Follow us on Facebook."
-          ><i class="fab fa-facebook"></i
-        ></a>
-        <a
-          rel="noreferrer noopener"
-          href="https://twitter.com/hitkolkata"
-          target="_blank"
-          aria-label="Follow us on Twitter."
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a
-          rel="noreferrer noopener"
-          href="https://instagram.com/tedx_hitkolkata/"
-          target="_blank"
-          aria-label="Follow us on Instagram."
-          ><i class="fab fa-instagram" aria-hidden="true"></i
-        ></a>
-      </div>
-      <button id="explore-button" class="btn">EXPLORE</button>
-    </div>
+				<!--MAP-->
 
-    <div id="main" class="font__open-sans">
-      <div id="landing" class="text-center">
-        <h1 class="font__oswald sub-heading">THEME: LOADING LIMITLESS</h1>
-        <hr class="small-hr" />
-        <div class="details">
-          <p>
-            Due to complete lockdown and government regulations, we are sorry to
-            say that TEDxHITKolkata has been postponed until further notice .
-            Nevertheless, we will be back once it's over. Till then, we wish you
-            all good health. Stay safe and stay at your homes because we can
-            combat this.... We believe nothing is limitless.
-          </p>
-          <!--<p>10:00 - March 24,2020</p>
-          <p>at</p>
-          <p>Swami Vivekananda Auditorium</p>
-          <p>Heritage Institute of Technology</p> -->
-        </div>
-        <hr class="small-hr" />
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.653208021584!2d88.41667224694913!3d22.517190965137427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDMxJzAyLjMiTiA4OMKwMjUnMDcuMyJF!5e0!3m2!1sen!2sin!4v1542473158222"
+					width="600"
+					height="500"
+					frameborder="0"
+					style="border: 0"
+					title="Location of Heritage Institute of Technology, Kolkata."
+					allowfullscreen
+				></iframe>
 
-        <!--MAP-->
-        <!--
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.653208021584!2d88.41667224694913!3d22.517190965137427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDMxJzAyLjMiTiA4OMKwMjUnMDcuMyJF!5e0!3m2!1sen!2sin!4v1542473158222"
-          width="600"
-          height="500"
-          frameborder="0"
-          style="border:0"
-          title="Location of Heritage Institute of Technology, Kolkata."
-          allowfullscreen
-        ></iframe>
--->
-        <div id="container-speaker" class="container">
-          <h1 class="font__oswald sub-heading">SPEAKERS</h1>
-          <hr class="small-hr" />
-          <p>
-            To be revealed soon! Stay tuned!
-          </p>
-          <hr class="small-hr" />
-          <!--
+				<div id="container-speaker" class="container">
+					<h1 class="font__oswald sub-heading">SPEAKERS</h1>
+					<hr class="small-hr" />
+					<p>To be revealed soon! Stay tuned!</p>
+					<hr class="small-hr" />
+					<!--
             <div id="">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">
               <div class="card" data-toggle="modal" data-target="#modal-one">
@@ -352,7 +321,7 @@
             </div>
           </div>
         --></div>
-        <!--
+				<!--
         <div class="container no-padding" style="margin-top: 0px;">
           <h1 class="font__oswald sub-heading">PERFORMERS</h1>
           <hr class="small-hr" />
@@ -383,128 +352,131 @@
           </div>
         </div>
         -->
-        <!--TEDx BANNER-->
-        <figure class="no-padding no-margin">
-          <img
-            src="img/banner.jpg"
-            class="banner"
-            alt="TEDx HIT Kolkata's event banner."
-          />
-          <figcaption>
-            <small style="color:#ffffff;"
-              >linkedin.com/in/ayushagarwal28/</small
-            >
-          </figcaption>
-        </figure>
+				<!--TEDx BANNER-->
+				<figure class="no-padding no-margin">
+					<img
+						src="img/banner.jpg"
+						class="banner"
+						alt="TEDx HIT Kolkata's event banner."
+					/>
+					<figcaption>
+						<small style="color: #ffffff"
+							>linkedin.com/in/ayushagarwal28/</small
+						>
+					</figcaption>
+				</figure>
 
-        <!--TEAM-->
+				<!--TEAM-->
 
-        <div class="container no-padding" style="margin-top: 50px;">
-          <h1 class="font__oswald sub-heading">TEAM</h1>
-          <hr class="small-hr" />
-          <p>Meet the people who brought it all together.</p>
-          <hr class="small-hr" />
-          <br />
-          <div id="container-team"></div>
-        </div>
-      </div>
+				<div class="container no-padding" style="margin-top: 50px">
+					<h1 class="font__oswald sub-heading">TEAM</h1>
+					<hr class="small-hr" />
+					<p>Meet the people who brought it all together.</p>
+					<hr class="small-hr" />
+					<br />
+					<div id="container-team"></div>
+				</div>
+			</div>
 
-      <!--FOOTER-->
+			<!--FOOTER-->
 
-      <footer>
-        <hr />
-        <div class="container">
-          <div class="row font-bolder">
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-              <p>
-                SHARE
-                <a
-                  href="https://facebook.com/sharer/sharer.php"
-                  aria-label="Share this website on Facebook."
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </p>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-              <p>
-                FOLLOW US
-                <a
-                  rel="noreferrer noopener"
-                  href="https://facebook.com/tedxhitkolkata/"
-                  target="_blank"
-                  aria-label="Follow us on Facebook."
-                  ><i class="fab fa-facebook"></i
-                ></a>
-                <a
-                  rel="noreferrer noopener"
-                  href="https://twitter.com/hitkolkata"
-                  target="_blank"
-                  aria-label="Follow us on Twitter."
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  rel="noreferrer noopener"
-                  href="https://instagram.com/tedx_hitkolkata/"
-                  target="_blank"
-                  aria-label="Follow us on Instagram."
-                  ><i class="fab fa-instagram" aria-hidden="true"></i
-                ></a>
-              </p>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-              <p><a href="mailto:tedxhitkolkata@gmail.com">EMAIL US</a></p>
-            </div>
-          </div>
-          <hr
-            style="margin-top: 12px; border-width: 2px; border-color: red; margin-right: 80%;"
-          />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-              <h4 class="font-bolder">ABOUT</h4>
-              <p>
-                <a href="about.html" target="_blank">TED</a><br />
-                <a href="about.html" target="_blank">TEDx</a><br />
-                <a href="about.html" target="_blank">TEDxHITKolkata</a>
-              </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <h4 class="spacer">&nbsp;</h4>
-              <p>
-                <span class="font-bolder"
-                  ><a
-                    rel="noreferrer noopener"
-                    href="http://heritageit.edu"
-                    target="_blank"
-                    >Heritage Institute of Technology</a
-                  ></span
-                ><br />
-                Chowbaga Road, Anandapur,<br />
-                PO: East Kolkata Twp, Kolkata - 700107
-              </p>
-            </div>
-          </div>
-          <hr
-            style="border-width: 2px; border-color: red; margin-right: 80%;"
-          />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <p>
-                This independent TEDx event is operated under license from TED.
-              </p>
-              <p>&copy;2020 | TEDxHITKolkata</p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+			<footer>
+				<hr />
+				<div class="container">
+					<div class="row font-bolder">
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+							<p>
+								SHARE
+								<a
+									href="https://facebook.com/sharer/sharer.php"
+									aria-label="Share this website on Facebook."
+									><i class="fab fa-facebook-f"></i
+								></a>
+							</p>
+						</div>
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+							<p>
+								FOLLOW US
+								<a
+									rel="noreferrer noopener"
+									href="https://facebook.com/tedxhitkolkata/"
+									target="_blank"
+									aria-label="Follow us on Facebook."
+									><i class="fab fa-facebook"></i
+								></a>
+								<a
+									rel="noreferrer noopener"
+									href="https://twitter.com/hitkolkata"
+									target="_blank"
+									aria-label="Follow us on Twitter."
+									><i class="fab fa-twitter"></i
+								></a>
+								<a
+									rel="noreferrer noopener"
+									href="https://instagram.com/tedx_hitkolkata/"
+									target="_blank"
+									aria-label="Follow us on Instagram."
+									><i class="fab fa-instagram" aria-hidden="true"></i
+								></a>
+							</p>
+						</div>
+						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+							<p><a href="mailto:tedxhitkolkata@gmail.com">EMAIL US</a></p>
+						</div>
+					</div>
+					<hr
+						style="
+							margin-top: 12px;
+							border-width: 2px;
+							border-color: red;
+							margin-right: 80%;
+						"
+					/>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<h4 class="font-bolder">ABOUT</h4>
+							<p>
+								<a href="about.html" target="_blank">TED</a><br />
+								<a href="about.html" target="_blank">TEDx</a><br />
+								<a href="about.html" target="_blank">TEDxHITKolkata</a>
+							</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<h4 class="spacer">&nbsp;</h4>
+							<p>
+								<span class="font-bolder"
+									><a
+										rel="noreferrer noopener"
+										href="http://heritageit.edu"
+										target="_blank"
+										>Heritage Institute of Technology</a
+									></span
+								><br />
+								Chowbaga Road, Anandapur,<br />
+								PO: East Kolkata Twp, Kolkata - 700107
+							</p>
+						</div>
+					</div>
+					<hr style="border-width: 2px; border-color: red; margin-right: 80%" />
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p>
+								This independent TEDx event is operated under license from TED.
+							</p>
+							<p>&copy;2020 | TEDxHITKolkata</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
-    <!--MODALS GO HERE-->
+		<!--MODALS GO HERE-->
 
-    <!--
+		<!--
     <div id="modals-speaker" class="font__open-sans">
       <div class="modal fade" id="modal-one" role="dialog">
         <div class="modal-dialog">
@@ -848,22 +820,22 @@
     </div>
 
     -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <!--<script src="js/countdown.js"></script>-->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
-      integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/team.json"></script>
-    <script src="js/script.js"></script>
-    <script src="js/lazyload.js"></script>
-    <script>
-      $("img").lazyload();
-    </script>
-  </body>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<!--<script src="js/countdown.js"></script>-->
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
+			integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/team.json"></script>
+		<script src="js/script.js"></script>
+		<script src="js/lazyload.js"></script>
+		<script>
+			$("img").lazyload();
+		</script>
+	</body>
 </html>
