@@ -72,7 +72,7 @@ a:active {
 
 #landing-overlay #overlay-social {
 	position: absolute;
-	bottom: 20px;
+	bottom: 40px;
 	left: 3.8%;
 	font-size: 20px;
 }
@@ -84,7 +84,7 @@ a:active {
 #landing-overlay .btn {
 	position: absolute;
 	right: 3.8%;
-	bottom: 20px;
+	bottom: 40px;
 	background-color: #ee0000;
 	border-radius: 0px;
 	font-weight: bold;
