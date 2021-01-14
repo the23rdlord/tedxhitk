@@ -81,9 +81,17 @@
 	{
 		"name": "Subhasis Das",
 		"picture": "./img/team/subhasis.jpg",
-		"designation": "Web Team",
+		"designation": "Web Head",
 		"linkedin": "https://www.linkedin.com/in/subhasis020299/",
 		"twitter": "https://twitter.com/geram_er_chhele",
 		"website": "https://subhasis.tech"
+	},
+	{
+		"name": "Gaurav Tulshian",
+		"designation": "Technical Head",
+		"picture": "/img/team/gaurav.jpg",
+		"facebook": "https://www.facebook.com/gaurav.tulshian.9",
+		"instagram": "https://www.instagram.com/gaurav_tulshian/",
+		"linkedin": "https://www.linkedin.com/in/gaurav-tulshian-20032000"
 	}
 ]
