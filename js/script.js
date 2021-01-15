@@ -52,11 +52,7 @@ const generateCardMarkup = (speaker, index) => `
 	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">
 							<div class="card" data-toggle="modal" data-target="#modal-${index + 1}">
 								<div class="box">
-								<h2>
-									
-                    ${speaker.name}<br />
-                    <span>${speaker.occupation}</span>
-									</h2>
+								
 									<div class="img">
 										<img
 											src=${speaker.image}
@@ -64,11 +60,14 @@ const generateCardMarkup = (speaker, index) => `
 										/>
 									</div>
 									${getCredits(speaker)}
-
+									<h2>
+										${speaker.name}<br />
+										<span>${speaker.headline}</span>
+									</h2>
 									
 									<p>
-                    Speaking On:<hr/>
-                    <h4 >${speaker.topic}</h4>
+										Speaking On:<hr/>
+										<h4 >${speaker.topic}</h4>
 									</p>
 									
 								</div>
@@ -90,7 +89,7 @@ const generateModalMakrup = (speaker, index) => `
 							<img src=${speaker.image} alt="${speaker.name}'s portrait." />
 							<div class="modal-title font-bolder">
 								<h3 class="font-bolder">${speaker.name}</h3>
-								${speaker.occupation}
+								${speaker.headline}
 							</div>
 						</div>
 						<div class="modal-body">
