@@ -19,10 +19,12 @@ const countDays = () => {
 
 	const days = eventDate.getDate() - today.getDate();
 	let outputMarkup = "";
-	if (days > 0) {
+	if (days > 1) {
 		outputMarkup = `<span class='text-red'>${days}</span> Days to go...`;
+	} else if (days === 1) {
+		outputMarkup = `<span class='text-red'>${days}</span> Day to go...`;
 	} else if (days === 0) {
-		outputMarkup = "SEE YOU TODAY!";
+		outputMarkup = "SEE YOU <span class='text-red'>TODAY!</span>";
 	} else {
 		outputMarkup = "See you next year :-)";
 	}
