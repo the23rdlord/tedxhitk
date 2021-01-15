@@ -1,24 +1,59 @@
 [
 	{
-		"name": "Manvir Singh",
-		"image": "/img/speakers/manvir.png",
-		"occupation": "Food Business Expert, Serial Entrepreneur and a Best-Selling Author",
-		"topic": "Rise and Rise of the Cloud Kitchens",
-		"bio": "<p>Manvir Singh Anand is a Food Business Expert, Serial Entrepreneur and a Best-Selling Author.</p><p>He is the Founder & CEO of Knight Gourmet - is a pan India presence Event Hospitality Solutions Company with 3 local offices in Delhi, Mumbai, and Chennai and a presence across 11 states, 30 cities having experience of serving over 1.35 million people for event properties like India Premier League, Indian Super League, IIFA awards, etc. He’s a strategic Investor, Consultant and mentor to multiple Startups and Cloud Kitchen brands. Also, He's author of National Best-seller \"Catering Your Way to Financial Independence\" and has trained over 3000+ budding food entrepreneurs to start their food business.<p><p> He's a Trained Chef with a Management Degree.</p>"
-	},
-	{
 		"name": "Dr. Biswajit Banerjee",
 		"image": "/img/speakers/drbiswajit.jpg",
-		"occupation": "Specialist General physician and Diabetologist.",
+		"headline": "Specialist General physician and Diabetologist.",
 		"topic": "Pathophysiology and Epidemiology Of COVID-19 and effectiveness of the vaccine to restore normal life",
 		"bio": "<p>Dr. Banerjee is a specialist General physician and diabetologist.<p> Dr. Banerjee has been working in the field of medicine, cardiology and Diabetiology for 27 years. He later on organized a walk and public awareness programme to prevent diabetes on World Diabetes Day 2017, attended by one hundred odd people, across North Calcutta.</p><p>Dr. Banerjee Regularly organising free diabetes camps for underprivileged patients in the locality and patient awareness camps, focused on diabetes, in various locations around Kolkata.</p>"
 	},
 	{
-		"name": "Md. Shams Aalam Shaikh",
+		"name": "Shams Aalam",
 		"image": "/img/speakers/shams.jpg",
 		"credits": "Chitralekha Magazine",
-		"occupation": "International gold medalist para swimmer.",
+		"headline": "International gold medalist para swimmer.",
 		"topic": "A champion's motivation is above and beyond winning",
 		"bio": "<p>Md. Shams Alam Shaikh is an international gold medalist para swimmer.He was awarded best emerging leader in disability sports.</p><p>He has won 4 Gold medals at Indian Open Para Swimming Championship in S-5 category and also represented India at the 2018 Asian Para Games in Jakarta.</p>"
+	},
+	{
+		"name": "Manvir Singh",
+		"image": "/img/speakers/manvir.png",
+		"headline": "Food Business Expert, Serial Entrepreneur and a Best-Selling Author",
+		"topic": "Rise and Rise of the Cloud Kitchens",
+		"bio": "<p>Manvir Singh Anand is a Food Business Expert, Serial Entrepreneur and a Best-Selling Author.</p><p>He is the Founder & CEO of Knight Gourmet - is a pan India presence Event Hospitality Solutions Company with 3 local offices in Delhi, Mumbai, and Chennai and a presence across 11 states, 30 cities having experience of serving over 1.35 million people for event properties like India Premier League, Indian Super League, IIFA awards, etc. He’s a strategic Investor, Consultant and mentor to multiple Startups and Cloud Kitchen brands. Also, He's author of National Best-seller \"Catering Your Way to Financial Independence\" and has trained over 3000+ budding food entrepreneurs to start their food business.<p><p> He's a Trained Chef with a Management Degree.</p>"
+	},
+	{
+		"name": "Khushi Khater",
+		"image": "/img/speakers/khushi.jpg",
+		"headline": "Poet,Record holder in India Book of Records,Karamveer Chakra Awardee",
+		"topic": "To be revealed soon",
+		"bio": "<p>Khushi Khater, age 19 years old is the  holder of few of the most prestigious awards of India like, India Book of Records, India Star Icon Award, Karmaveer Chakra Award in association with United Nations and iCONGO, Nari Samman Award and her love for poetry has got her recognitions by getting her poetry published in the International Poetry Digest - New York.</p>"
+	},
+	{
+		"name": "Sayan Chakraborty",
+		"image": "/img/speakers/sayan.jpg",
+		"headline": "Founder & CEO - <br/>WTF!Where's The Food!",
+		"topic": "To be revealed soon",
+		"bio": "<p>Sayan Chakraborty, Founder/ CEO of WTF! Where’s The Food! is one of Eastern India’s youngest entrepreneurs to cross a turnover of a million in a year, with over 4 restaurants in just 15 months of operation. He was also the youngest to receive the Times Hospitality Icon of the year.</p>"
+	},
+	{
+		"name": "Kaushik Sen",
+		"image": "/img/speakers/kaushik.jpeg",
+		"headline": "Actor and Thespian",
+		"topic": "To be revealed soon",
+		"bio": "<p>Kaushik Sen is a well-acclaimed Indian actor and thespian. He is the director of the theatre group Swapnasandhani. He has won the BFJA awards for best supporting actor for his performance in the Mrinal Sen directed film Aamar Bhuvan. His recent independent film Cold Fire has released In Kolkata International Film Festival on 11th and upcoming on15th of January. He has acted and directed in countless movies and plays. </p>"
+	},
+	{
+		"name": "Soukarya Ghoshal",
+		"image": "/img/speakers/soukarya.png",
+		"headline": "Illustrator,Journalist,Renowned Film Director",
+		"topic": "To be revealed soon",
+		"bio": "<p>Soukarya Ghosal is an Indian film director, lyricist, animator and screenplay writer. He works in Bengali cinema. His first feature film was Pendulum. He has received recognition for directing Rainbow Jelly and Rawkto Rawhoshyo.</p>"
+	},
+	{
+		"name": "Sabyasachi Mukhopadhyay",
+		"image": "/img/speakers/sabyasachi.jpg",
+		"headline": "Faculty of Business Analytics and Statistics at School of Management Science, MAKAUT",
+		"topic": "To be revealed soon",
+		"bio": "Sabyasachi Mukhopadhyay is a member of the faculty of Business Analytics and Statistics at School of  Management Science, MAKAUT. He is also the University Faculty Co-Ordinator of BBA and MBA in Business Analytics at MAKAUT.</p><p> He is the Lead of Facebook Developer Circle, Google Developer Expert in Machine Learning and Intel Software Innovator. </p>"
 	}
 ]
