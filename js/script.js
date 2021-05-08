@@ -1,53 +1,58 @@
 $(document).ready(() => {
-	countDays();
-	$("#explore-button").on("click", function () {
-		$("html,body").animate(
-			{
-				scrollTop: $("#main").offset().top,
-			},
-			"slow"
-		);
-	});
-	getSpeakers();
-	getTeam();
+  countDays();
+  $("#explore-button").on("click", function () {
+    $("html,body").animate(
+      {
+        scrollTop: $("#main").offset().top,
+      },
+      "slow"
+    );
+  });
+  getSpeakers();
+  getTeam();
 });
 
 /** COUNTDOWN */
 const countDays = () => {
-	const eventDate = new Date("16 Jan 2021");
-	const today = new Date();
+  const eventDate = new Date("16 Jan 2021");
+  const today = new Date();
 
-	const days = eventDate.getDate() - today.getDate();
-	let outputMarkup = "";
-	if (days > 1) {
-		outputMarkup = `<span class='text-red'>${days}</span> Days to go...`;
-	} else if (days === 1) {
-		outputMarkup = `<span class='text-red'>${days}</span> Day to go...`;
-	} else if (days === 0) {
-		outputMarkup = "SEE YOU <span class='text-red'>TODAY!</span>";
-	} else {
-		outputMarkup = "See you next year :-)";
-	}
-	document.getElementById("day-count").innerHTML = outputMarkup;
+  let outputMarkup = "";
+  if (today > eventDate) {
+    outputMarkup = "See you next year :-)";
+  } else {
+    const days = eventDate.getDate() - today.getDate();
+    if (days > 1) {
+      outputMarkup = `<span class='text-red'>${days}</span> Days to go...`;
+    } else if (days === 1) {
+      outputMarkup = `<span class='text-red'>${days}</span> Day to go...`;
+    } else if (days === 0) {
+      outputMarkup = "SEE YOU <span class='text-red'>TODAY!</span>";
+    } else {
+      outputMarkup = "See you next year :-)";
+    }
+  }
+
+  document.getElementById("day-count").innerHTML = outputMarkup;
 };
 
 /** ===Speaker rendering JS=== */
 const getSpeakers = async () => {
-	let cardMarkup = "";
-	let modalMarkup = "";
+  let cardMarkup = "";
+  let modalMarkup = "";
 
-	try {
-		const speakers = await $.getJSON("/db/speakers.json");
-		speakers.forEach((speaker, index) => {
-			cardMarkup += generateCardMarkup(speaker, index);
-			modalMarkup += generateModalMakrup(speaker, index);
-		});
-	} catch (error) {
-		console.log(error);
-		cardMarkup = "Error in loading speakers!";
-	}
-	document.getElementById("speakers-area").innerHTML = cardMarkup;
-	document.getElementById("modals-speaker").innerHTML = modalMarkup;
+  try {
+    const speakers = await $.getJSON("/db/speakers.json");
+    speakers.forEach((speaker, index) => {
+      cardMarkup += generateCardMarkup(speaker, index);
+      modalMarkup += generateModalMakrup(speaker, index);
+    });
+  } catch (error) {
+    console.log(error);
+    cardMarkup = "Error in loading speakers!";
+  }
+  document.getElementById("speakers-area").innerHTML = cardMarkup;
+  document.getElementById("modals-speaker").innerHTML = modalMarkup;
 };
 
 const generateCardMarkup = (speaker, index) => `
@@ -59,6 +64,7 @@ const generateCardMarkup = (speaker, index) => `
 										<img
 											src=${speaker.image}
 											alt="${speaker.name}'s portait"
+                      class="img-styles"
 										/>
 									</div>
 									${getCredits(speaker)}
@@ -78,7 +84,7 @@ const generateCardMarkup = (speaker, index) => `
 `;
 
 const getCredits = (speaker) =>
-	speaker.credits ? `<small>Picture: ${speaker.credits}</small>` : "";
+  speaker.credits ? `<small>Picture: ${speaker.credits}</small>` : "";
 
 const generateModalMakrup = (speaker, index) => `
 	<div class="modal fade" id="modal-${index + 1}" role="dialog">
@@ -107,15 +113,17 @@ const generateModalMakrup = (speaker, index) => `
 
 /** ===TEAM RENDERING JS=== */
 const getTeam = async () => {
-	let outputMarkup = "";
-	try {
-		const members = await $.getJSON("/db/team.json");
-		outputMarkup += `<div class="row">`;
-		members.forEach((member) => {
-			outputMarkup += `
+  let outputMarkup = "";
+  try {
+    const members = await $.getJSON("/db/team.json");
+    outputMarkup += `<div class="row">`;
+    members.forEach((member) => {
+      outputMarkup += `
       <div class="col-sm-4 container-team-member">
         <div class="float-my-children">
-          <img src="${member.picture}" alt="${member.name}'s picture" />
+          <img src="${member.picture}" alt="${
+        member.name
+      }'s picture"  class='img-styles'/>
           <div class="team-member-details">
             <span class="team-member-name">${member.name}</span><br/>
             <span>${member.designation}</span><br />
@@ -130,66 +138,66 @@ const getTeam = async () => {
         </div>
       </div>
     `;
-		});
-		outputMarkup += "</div>";
-	} catch (error) {
-		console.log(error);
-		outputMarkup = `Error in loading team!`;
-	}
+    });
+    outputMarkup += "</div>";
+  } catch (error) {
+    console.log(error);
+    outputMarkup = `Error in loading team!`;
+  }
 
-	$("#container-team").html(outputMarkup);
+  $("#container-team").html(outputMarkup);
 };
 
 function getLinks(member) {
-	let markup = "";
-	if (member.facebook) {
-		markup += `
+  let markup = "";
+  if (member.facebook) {
+    markup += `
     <li>
       <a href=  ${member.facebook} target="noopener noreferrer" aria-label="${member.name}' facebook account">
         <i class="fab fa-facebook"></i>
       </a>
     </li>
     `;
-	}
+  }
 
-	if (member.linkedin) {
-		markup += `
+  if (member.linkedin) {
+    markup += `
     <li>
       <a href=  ${member.linkedin} target="noopener noreferrer" aria-label="${member.name}' linkedin account">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     `;
-	}
-	if (member.instagram) {
-		markup += `
+  }
+  if (member.instagram) {
+    markup += `
     <li>
       <a href=  ${member.instagram} target="noopener noreferrer" aria-label="${member.name}' linkedin account">
         <i class="fab fa-instagram"></i>
       </a>
     </li>
     `;
-	}
+  }
 
-	if (member.twitter) {
-		markup += `
+  if (member.twitter) {
+    markup += `
     <li>
       <a href=  ${member.twitter} target="noopener noreferrer" aria-label="${member.name}' twitter account">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     `;
-	}
+  }
 
-	if (member.website) {
-		markup += `
+  if (member.website) {
+    markup += `
     <li>
       <a href=  ${member.website} target="noopener noreferrer" aria-label="${member.name}' website">
         <i class="fa fa-globe"></i>
       </a>
     </li>
     `;
-	}
+  }
 
-	return markup;
+  return markup;
 }

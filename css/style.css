@@ -1,319 +1,323 @@
 a {
-	color: inherit;
-	cursor: pointer;
+  color: inherit;
+  cursor: pointer;
 }
 
 a:visited {
-	color: inherit;
+  color: inherit;
 }
 
 a:hover {
-	color: inherit;
+  color: inherit;
 }
 
 a:active {
-	color: inherit;
+  color: inherit;
 }
 
 #landing-overlay {
-	background-color: #000000;
-	color: #ffffff;
-	width: 100%;
-	height: 100%;
-	position: fixed;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
 
 #landing-overlay #landing-overlay-logo {
-	padding-top: 4%;
-	padding-left: 30px;
-	width: 70%;
+  padding-top: 4%;
+  padding-left: 30px;
+  width: 70%;
 }
 
 #landing-overlay #countdown-timer {
-	padding-top: 7%;
-	padding-left: 4%;
-	font-size: 4vw;
+  padding-top: 7%;
+  padding-left: 4%;
+  font-size: 4vw;
 }
 
 #landing-overlay #countdown-timer [class^="countdown-"],
 #landing-overlay #countdown-timer [id^="countdown-"] {
-	display: inline-block;
+  display: inline-block;
 }
 
 #landing-overlay #countdown-timer .countdown-timer-block {
-	display: inline-block;
-	text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 #landing-overlay #countdown-timer .countdown-timer-divider {
-	position: relative;
-	top: -35px;
+  position: relative;
+  top: -35px;
 }
 
 #landing-overlay #countdown-timer .countdown-description {
-	font-size: 0.9vw;
-	font-weight: bold;
-	letter-spacing: 2px;
-	display: block;
-	padding-left: 3%;
+  font-size: 0.9vw;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: block;
+  padding-left: 3%;
 }
 
 #theme-for-mobile {
-	display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 568px) {
-	#theme-for-mobile {
-		display: inline-block;
-		height: 300px;
-		padding: 10px;
-	}
+  #theme-for-mobile {
+    display: inline-block;
+    height: 300px;
+    padding: 10px;
+  }
 }
 
 #landing-overlay #overlay-social {
-	position: absolute;
-	bottom: 40px;
-	left: 3.8%;
-	font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 3.8%;
+  font-size: 20px;
 }
 
 #landing-overlay #overlay-social a {
-	padding-right: 20px;
+  padding-right: 20px;
 }
 
 #landing-overlay .btn {
-	position: absolute;
-	right: 3.8%;
-	bottom: 40px;
-	background-color: #ee0000;
-	border-radius: 0px;
-	font-weight: bold;
-	letter-spacing: 2px;
+  position: absolute;
+  right: 3.8%;
+  bottom: 40px;
+  background-color: #ee0000;
+  border-radius: 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 #landing-overlay .btn:hover {
-	color: inherit;
+  color: inherit;
 }
 
 #landing-overlay .btn:active {
-	color: inherit;
-	outline: 0px;
+  color: inherit;
+  outline: 0px;
 }
 
 #landing-overlay .btn:focus {
-	color: inherit;
-	outline: 0px;
+  color: inherit;
+  outline: 0px;
 }
 
 #main {
-	position: absolute;
-	top: 100%;
-	background-color: #ffffff;
+  position: absolute;
+  top: 100%;
+  background-color: #ffffff;
 }
 
 #landing {
-	padding-top: 10%;
-	letter-spacing: 1.1px;
+  padding-top: 10%;
+  letter-spacing: 1.1px;
 }
 
 #landing em {
-	font-size: 32px;
+  font-size: 32px;
 }
 
 #landing p {
-	margin: 0px;
+  margin: 0px;
 }
 
 #landing iframe {
-	width: 100%;
-	padding: 20px 0px 0px 0px;
-	border: 0;
-	filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
-	/* Firefox 10+ */
-	filter: gray;
-	/* IE6-9 */
-	-webkit-filter: grayscale(99%);
-	/* Chrome 19+ & Safari 6+ */
-	-webkit-backface-visibility: hidden;
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  border: 0;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  /* Firefox 10+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(99%);
+  /* Chrome 19+ & Safari 6+ */
+  -webkit-backface-visibility: hidden;
 }
 
 #landing .details p {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 #landing .small-hr {
-	margin: 2% 30%;
+  margin: 2% 30%;
 }
 
 nav.navbar {
-	border-radius: 0px;
+  border-radius: 0px;
 }
 
 .sub-heading {
-	font-size: 64px;
-	font-weight: bold;
-	letter-spacing: 5px;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 .center-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #day-count {
-	font-size: 4rem;
-	padding: 5px;
+  font-size: 4rem;
+  padding: 5px;
+}
+
+.img-styles {
+  object-fit: cover;
 }
 
 .text-red {
-	color: red;
+  color: red;
 }
 
 .theme-logo {
-	width: 50%;
-	height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 #container-speaker {
-	padding-top: 50px;
-	padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 #container-speaker .card {
-	min-height: 400px;
-	background: #fff;
-	transition: 0.4s;
-	margin: 8px;
-	border-radius: 3px;
-	padding: 0px;
-	box-shadow: 0.5px 2px 2px 0px rgba(0, 0, 0, 0.14),
-		0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-	padding-bottom: 5px;
+  min-height: 400px;
+  background: #fff;
+  transition: 0.4s;
+  margin: 8px;
+  border-radius: 3px;
+  padding: 0px;
+  box-shadow: 0.5px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  padding-bottom: 5px;
 }
 
 #container-speaker .card:hover {
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-	cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 #container-speaker .card .box {
-	text-align: center;
-	box-sizing: border-box;
-	width: 100%;
-	height: 500px;
-	padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  padding: 10px;
 }
 
 #container-speaker .card .box .img {
-	position: relative;
-	top: 10px;
-	margin: 10px auto 40px auto;
-	width: 170px;
-	height: 170px;
-	border-radius: 50%;
-	overflow: hidden;
+  position: relative;
+  top: 10px;
+  margin: 10px auto 40px auto;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 #container-speaker .card .box .img img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #container-speaker .card .box h2 {
-	font-size: 20px;
-	color: red;
-	margin: 20px auto;
-	font-weight: bold;
+  font-size: 20px;
+  color: red;
+  margin: 20px auto;
+  font-weight: bold;
 }
 
 #container-speaker .card .box h2 span {
-	font-size: 14px;
-	display: inline-block;
-	padding: 4px 10px;
-	border-radius: 15px;
-	color: #262626;
+  font-size: 14px;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 15px;
+  color: #262626;
 }
 
 #container-speaker .card .box p {
-	color: #262626;
+  color: #262626;
 }
 
 #container-speaker .card .box span {
-	display: inline-flex;
+  display: inline-flex;
 }
 
 #container-speaker .card .box ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #container-speaker .card .box ul li {
-	list-style: none;
-	float: left;
+  list-style: none;
+  float: left;
 }
 
 #container-speaker .card .box ul li a i {
-	display: block;
-	color: #888;
-	width: 35px;
-	height: 35px;
-	margin: 0px 2px;
-	padding: 7px;
-	font-size: 20px;
-	text-align: center;
+  display: block;
+  color: #888;
+  width: 35px;
+  height: 35px;
+  margin: 0px 2px;
+  padding: 7px;
+  font-size: 20px;
+  text-align: center;
 }
 
 #container-speaker .parent-card {
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #container-speaker .speaker-social {
-	position: absolute;
-	bottom: 20px;
-	left: 50%;
-	transform: translateX(-50%);
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #container-speaker .row {
-	margin: 0px 10px 0px -5px;
+  margin: 0px 10px 0px -5px;
 }
 
 #container-team .container-team-member,
 #container-team-extra .container-team-member {
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 #container-performer .container-performer-member {
-	padding-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 #container-team .float-my-children,
 #container-performer .float-my-children,
 #container-team-extra .float-my-children {
-	margin: 0px 20px;
+  margin: 0px 20px;
 }
 
 #container-team .float-my-children > *,
 #container-performer .float-my-children > *,
 #container-team-extra .float-my-children > * {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 #container-team .float-my-children img,
 #container-team-extra .float-my-children img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 #container-performer .float-my-children img {
-	width: 150px;
-	height: 150px;
+  width: 150px;
+  height: 150px;
 }
 #container-team .clearfix,
 #container-performer .clearfix,
 #container-team-extra .clearfix {
-	*zoom: 1;
+  *zoom: 1;
 }
 
 #container-team .clearfix:before,
@@ -322,289 +326,289 @@ nav.navbar {
 #container-performer .clearfix:after,
 #container-team-extra .clearfix:before,
 #container-team-extra .clearfix:after {
-	content: " ";
-	display: table;
+  content: " ";
+  display: table;
 }
 
 #container-team .clearfix:after,
 #container-performer .clearfix:after,
 #container-team-extra .clearfix:after {
-	clear: both;
+  clear: both;
 }
 
 #container-team ul,
 #container-team-extra ul {
-	margin: 0;
-	padding: 7px 0px 0px 0px;
+  margin: 0;
+  padding: 7px 0px 0px 0px;
 }
 
 #container-team ul li,
 #container-team-extra ul li {
-	list-style: none;
-	display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
 #container-team ul li a i,
 #container-team-extra ul li a i {
-	display: block;
-	color: #888;
-	margin: 0px 15px 0px 0px;
-	font-size: 20px;
-	text-align: center;
+  display: block;
+  color: #888;
+  margin: 0px 15px 0px 0px;
+  font-size: 20px;
+  text-align: center;
 }
 
 #container-team .team-member-details,
 #container-team-extra .team-member-details {
-	margin: 10px auto 16px 0px;
-	font-weight: bold;
+  margin: 10px auto 16px 0px;
+  font-weight: bold;
 }
 
 #container-team .team-member-details .team-member-name,
 #container-team-extra .team-member-details .team-member-name {
-	color: #ee0000;
+  color: #ee0000;
 }
 
 .banner {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 footer {
-	letter-spacing: 1.1px;
-	padding-bottom: 10px;
-	background-color: #262626;
-	color: #ffffff;
+  letter-spacing: 1.1px;
+  padding-bottom: 10px;
+  background-color: #262626;
+  color: #ffffff;
 }
 footer a i {
-	margin-left: 10px;
-	font-size: 18px;
+  margin-left: 10px;
+  font-size: 18px;
 }
 footer a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 @media (min-width: 1100px) {
-	footer .container {
-		margin-left: 110px;
-	}
-	#landing-overlay img#landing-overlay-image {
-		z-index: 999;
-		height: 350px;
-		width: auto;
-		right: 50px;
-		bottom: 150px;
-	}
+  footer .container {
+    margin-left: 110px;
+  }
+  #landing-overlay img#landing-overlay-image {
+    z-index: 999;
+    height: 350px;
+    width: auto;
+    right: 50px;
+    bottom: 150px;
+  }
 }
 @media (min-width: 1100px) and (max-width: 1200px) {
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -30px;
-	}
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -30px;
+  }
 }
 @media (min-width: 1024px) and (max-width: 1100px) {
-	footer .container {
-		margin-left: 50px;
-	}
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -29px;
-	}
-	#landing-overlay img#landing-overlay-image {
-		z-index: 999;
-		height: 300px;
-		width: auto;
-		position: absolute;
-		right: 50px;
-		bottom: 150px;
-	}
+  footer .container {
+    margin-left: 50px;
+  }
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -29px;
+  }
+  #landing-overlay img#landing-overlay-image {
+    z-index: 999;
+    height: 300px;
+    width: auto;
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-	footer .container {
-		margin-left: 35px;
-	}
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -25px;
-	}
+  footer .container {
+    margin-left: 35px;
+  }
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -25px;
+  }
 }
 
 #modals-speaker .modal .modal-content {
-	border-radius: 0px;
-	color: black;
-	letter-spacing: 0.7px;
+  border-radius: 0px;
+  color: black;
+  letter-spacing: 0.7px;
 }
 
 #modals-speaker img {
-	width: 150px;
-	height: 150px;
-	float: left;
-	margin-right: 15px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
 }
 
 #modals-speaker .modal-header {
-	background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 #modals-speaker .modal-title h3 {
-	color: red;
-	margin-top: 35px;
+  color: red;
+  margin-top: 35px;
 }
 
 @media (max-width: 512px) {
-	#modals-speaker img {
-		display: block;
-		margin: 0px auto;
-		float: none;
-		width: 200px;
-		height: 200px;
-	}
+  #modals-speaker img {
+    display: block;
+    margin: 0px auto;
+    float: none;
+    width: 200px;
+    height: 200px;
+  }
 
-	#modals-speaker .modal-title {
-		display: block;
-		text-align: center;
-	}
+  #modals-speaker .modal-title {
+    display: block;
+    text-align: center;
+  }
 
-	#modals-speaker .modal-body {
-		text-align: center;
-	}
+  #modals-speaker .modal-body {
+    text-align: center;
+  }
 
-	#modals-speaker .modal-title h3 {
-		color: red;
-		margin-top: 15px;
-	}
+  #modals-speaker .modal-title h3 {
+    color: red;
+    margin-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-	.sub-heading {
-		font-size: 6vw !important;
-	}
-	#landing .details p {
-		font-size: 14px !important;
-	}
+  .sub-heading {
+    font-size: 6vw !important;
+  }
+  #landing .details p {
+    font-size: 14px !important;
+  }
 
-	.spacer {
-		display: none;
-	}
-	#landing-overlay img#landing-overlay-image {
-		display: none !important;
-	}
+  .spacer {
+    display: none;
+  }
+  #landing-overlay img#landing-overlay-image {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-height: 600px) {
-	#landing-overlay {
-		padding-top: 5% !important;
-	}
+  #landing-overlay {
+    padding-top: 5% !important;
+  }
 }
 @media only screen and (max-width: 400px) {
-	#countdown-timer {
-		padding-left: 9% !important;
-	}
-	#landing-overlay {
-		padding-top: 50%;
-	}
-	#landing-overlay #landing-overlay-logo {
-		max-width: 450px !important;
-		width: 100%;
-	}
-	#landing-overlay #explore-button {
-		font-size: 11px;
-	}
-	#countdown-timer {
-		font-size: 6vw !important;
-	}
-	.countdown-description {
-		font-size: 2.5vw !important;
-	}
-	#container-team .container-team-member,
-	#container-performer,
-	.container-performer-member,
-	#container-team-extra .container-team-member {
-		padding-right: 0px;
-		padding-left: 0px;
-	}
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -20px;
-	}
+  #countdown-timer {
+    padding-left: 9% !important;
+  }
+  #landing-overlay {
+    padding-top: 50%;
+  }
+  #landing-overlay #landing-overlay-logo {
+    max-width: 450px !important;
+    width: 100%;
+  }
+  #landing-overlay #explore-button {
+    font-size: 11px;
+  }
+  #countdown-timer {
+    font-size: 6vw !important;
+  }
+  .countdown-description {
+    font-size: 2.5vw !important;
+  }
+  #container-team .container-team-member,
+  #container-performer,
+  .container-performer-member,
+  #container-team-extra .container-team-member {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -20px;
+  }
 }
 @media only screen and (min-width: 401px) and (max-width: 600px) {
-	#countdown-timer {
-		padding-left: 9% !important;
-	}
-	#landing-overlay {
-		padding-top: 45%;
-	}
-	#landing-overlay #landing-overlay-logo {
-		max-width: 500px;
-		width: 100%;
-		margin-left: 5px;
-	}
-	#countdown-timer {
-		font-size: 6vw !important;
-	}
-	.countdown-description {
-		font-size: 2.5vw !important;
-	}
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -28px;
-	}
+  #countdown-timer {
+    padding-left: 9% !important;
+  }
+  #landing-overlay {
+    padding-top: 45%;
+  }
+  #landing-overlay #landing-overlay-logo {
+    max-width: 500px;
+    width: 100%;
+    margin-left: 5px;
+  }
+  #countdown-timer {
+    font-size: 6vw !important;
+  }
+  .countdown-description {
+    font-size: 2.5vw !important;
+  }
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -28px;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px) {
-	#countdown-timer {
-		padding-left: 6% !important;
-	}
-	#landing-overlay {
-		padding-top: 25%;
-	}
-	#landing-overlay #landing-overlay-logo {
-		max-width: 500px;
-		width: 100%;
-		margin-left: 10px;
-	}
-	#countdown-timer {
-		font-size: 6vw !important;
-	}
-	.countdown-description {
-		font-size: 2.5vw !important;
-	}
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -38px;
-	}
+  #countdown-timer {
+    padding-left: 6% !important;
+  }
+  #landing-overlay {
+    padding-top: 25%;
+  }
+  #landing-overlay #landing-overlay-logo {
+    max-width: 500px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  #countdown-timer {
+    font-size: 6vw !important;
+  }
+  .countdown-description {
+    font-size: 2.5vw !important;
+  }
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -38px;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 700px) {
-	#landing-overlay #countdown-timer .countdown-timer-divider {
-		position: relative;
-		top: -32px;
-	}
+  #landing-overlay #countdown-timer .countdown-timer-divider {
+    position: relative;
+    top: -32px;
+  }
 }
 @media only screen and (min-width: 801px) and (max-width: 1025px) {
-	#countdown-timer {
-		padding-left: 5% !important;
-	}
-	#landing-overlay {
-		padding-top: 15%;
-	}
-	#landing-overlay img#landing-overlay-image {
-		z-index: 999;
-		height: 240px;
-		width: auto;
-		position: absolute;
-		right: 50px;
-		bottom: 150px;
-	}
+  #countdown-timer {
+    padding-left: 5% !important;
+  }
+  #landing-overlay {
+    padding-top: 15%;
+  }
+  #landing-overlay img#landing-overlay-image {
+    z-index: 999;
+    height: 240px;
+    width: auto;
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-	#landing-overlay #overlay-social {
-		left: 8%;
-	}
-	#container-performer .container-performer-member {
-		padding-bottom: 50px;
-	}
+  #landing-overlay #overlay-social {
+    left: 8%;
+  }
+  #container-performer .container-performer-member {
+    padding-bottom: 50px;
+  }
 }
 
 #container-team-extra {
-	display: none;
+  display: none;
 }
